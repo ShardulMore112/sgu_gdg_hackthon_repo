@@ -6,3 +6,4 @@ An AI career guide that analyzes skills, recommends jobs, and suggests courses v
 
 
 hello everyone
+This is a test commit 
