@@ -1,0 +1,2 @@
+# sgu_gdg_hackthon_repo
+Job_sensei_project_at_sgu_hackathon
