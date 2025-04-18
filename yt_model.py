@@ -68,4 +68,4 @@ def main():
     extract_and_print_links(results)
 
 if __name__ == "__main__":
-    main()
+    main() 
