@@ -1,0 +1,65 @@
+{
+  "career_goal": "Web Developer",
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Strengthen Core Web Development Skills",
+      "description": "Focus on HTML, CSS, and JavaScript. Build several small projects to practice and solidify these foundational skills. Explore advanced CSS concepts like Flexbox and Grid. Deepen JavaScript knowledge by learning about DOM manipulation, asynchronous operations, and modern frameworks.",
+      "duration": "3-6 months",
+      "resources": [
+        "freeCodeCamp",
+        "Codecademy",
+        "MDN Web Docs",
+        "Frontend Masters"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Choose a Specialization (Frontend, Backend, or Full-stack)",
+      "description": "Frontend: Focus on user interfaces and user experience, mastering libraries like React, Angular, or Vue.js. Backend: Learn server-side languages like Python, Node.js, Java, or PHP, and database management with SQL or NoSQL databases. Full-stack: Combine frontend and backend skills to develop complete web applications.",
+      "duration": "3-6 months",
+      "resources": [
+        "React Official Documentation",
+        "Angular Official Documentation",
+        "Vue.js Official Documentation",
+        "Node.js Official Documentation",
+        "Python Official Documentation",
+        "MDN Web Docs"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Build a Portfolio of Projects",
+      "description": "Develop personal projects that showcase your skills and creativity.  Include projects that demonstrate your chosen specialization.  Contribute to open-source projects to gain real-world experience.",
+      "duration": "Ongoing",
+      "resources": [
+        "GitHub",
+        "GitLab",
+        "Open Source Friday"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Gain Practical Experience (Internship/Freelancing)",
+      "description": "Look for internships or freelance opportunities to apply your skills in a professional setting. This will provide valuable experience and build your resume.",
+      "duration": "3-6 months",
+      "resources": [
+        "LinkedIn",
+        "Indeed",
+        "Upwork",
+        "Fiverr"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Network and Prepare for Job Search",
+      "description": "Attend industry events, connect with other developers, and build your professional network. Refine your resume and practice your interviewing skills.",
+      "duration": "Ongoing",
+      "resources": [
+        "LinkedIn",
+        "Meetup.com",
+        "Local tech events"
+      ]
+    }
+  ]
+}

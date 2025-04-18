@@ -1,0 +1,82 @@
+{
+  "career_goal": "AI Researcher",
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Strengthen Foundational Knowledge",
+      "description": "Deepen your understanding of core AI concepts, including mathematics (linear algebra, calculus, probability, statistics), machine learning algorithms (supervised, unsupervised, reinforcement learning), and deep learning architectures (CNNs, RNNs, Transformers).",
+      "duration": "Ongoing throughout career",
+      "resources": [
+        "Online courses (Coursera, edX, Udacity)",
+        "Textbooks (e.g., \"Deep Learning\" by Goodfellow et al., \"Reinforcement Learning\" by Sutton and Barto)",
+        "Academic publications (arXiv, conferences)"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Specialize in a Research Area",
+      "description": "Focus on a specific domain within AI research, such as NLP, Computer Vision, Generative AI, or Reinforcement Learning.  Align this with your interests (LLMs, NLP, RAG, Generative AI, Time Series Forecasting) and explore current research trends.",
+      "duration": "6-12 months",
+      "resources": [
+        "Attend conferences and workshops",
+        "Read research papers in your chosen area",
+        "Follow leading researchers and labs on social media and academic platforms"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Build a Strong Research Portfolio",
+      "description": "Expand upon your existing projects and contribute to open-source projects.  Start with smaller, well-defined projects and gradually increase complexity. Document your work clearly and concisely, emphasizing your contributions and results.",
+      "duration": "Ongoing throughout career",
+      "resources": [
+        "GitHub",
+        "Kaggle",
+        "Contribute to research papers (start with workshops or less prestigious venues)"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Gain Research Experience",
+      "description": "Seek research internships at universities, research labs, or companies with dedicated AI research teams. This provides valuable practical experience and mentorship.",
+      "duration": "Summer internships or longer-term positions",
+      "resources": [
+        "University research labs",
+        "Company research internships (e.g., Google AI Residency, Facebook AI Research)",
+        "Networking at conferences and workshops"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Pursue Advanced Education (Optional but Recommended)",
+      "description": "A Master's or PhD degree in Computer Science or a related field significantly strengthens your research credentials and opens doors to more advanced research roles.",
+      "duration": "2-6 years",
+      "resources": [
+        "Identify universities with strong AI research programs",
+        "Prepare for graduate admissions tests (GRE, TOEFL)",
+        "Contact potential advisors"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Network and Collaborate",
+      "description": "Actively engage with the AI research community. Attend conferences, present your work, and collaborate with other researchers.",
+      "duration": "Ongoing throughout career",
+      "resources": [
+        "Conferences (NeurIPS, ICML, ICLR, ACL)",
+        "Workshops",
+        "Online forums and communities"
+      ]
+    },
+    {
+      "step": 7,
+      "title": "Publish Your Research",
+      "description": "Disseminate your findings by publishing papers in reputable conferences and journals. This establishes your credibility as a researcher and contributes to the advancement of the field.",
+      "duration": "Ongoing throughout career",
+      "resources": [
+        "Academic journals",
+        "Conference proceedings",
+        "Pre-print servers (arXiv)"
+      ]
+    }
+  ]
+}
