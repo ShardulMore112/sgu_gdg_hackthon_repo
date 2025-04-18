@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JobSensei</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">JobSensei 🚀</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#recommendation">Career Match</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+</header>
+
+  <section class="hero" id="hero">
+    <h1 class="fade-in">Smart Career Navigator</h1>
+    <p class="fade-in">AI-powered career guidance made for Tier-2/3 India</p>
+    <a href="#recommendation" class="btn pulse">Get Started</a>
+  </section>
+
+  <section id="features" class="features-section slide-in">
+    <h2>Why JobSensei?</h2>
+    <div class="feature-grid">
+      <div class="feature-card zoom-in">
+        <h3>🧠 AI Skill Analysis</h3>
+        <p>Understand your skills deeply using Google Vertex AI.</p>
+      </div>
+      <div class="feature-card zoom-in delay-1">
+        <h3>📊 Job Recommendations</h3>
+        <p>Get personalized job paths based on your profile.</p>
+      </div>
+      <div class="feature-card zoom-in delay-2">
+        <h3>🎓 Free Learning Paths</h3>
+        <p>YouTube Data API recommends top-rated free courses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="recommendation" class="recommend-section fade-in">
+    <h2>Enter Your Skills</h2>
+    <input type="text" id="skillsInput" placeholder="e.g., Python, HTML, Data Analysis"/>
+    <button onclick="getRecommendations()">Analyze & Recommend</button>
+    <div id="result"></div>
+  </section>
+
+  <section id="testimonials" class="testimonials-section">
+    <h2>What Users Say</h2>
+    <div class="testimonial-carousel">
+      <div class="testimonial fade-in">
+        <p>"I’m from Nashik, and JobSensei helped me land a remote job!"</p>
+        <span>- Rahul, Frontend Dev</span>
+      </div>
+      <div class="testimonial fade-in delay-1">
+        <p>"The free YouTube course suggestions were perfect!"</p>
+        <span>- Priya, Data Analyst</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section slide-in">
+    <h2>About JobSensei</h2>
+    <p>We're on a mission to unlock career opportunities for students and professionals in India's Tier-2/3 towns. By blending Google’s Vertex AI and YouTube Data API, we help you find your best-fit job and upskilling content — all free and accessible.</p>
+  </section>
+
+  <footer class="footer">
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150">
+      <path fill="#34495e" fill-opacity="1" d="M0,96L80,85.3C160,75,320,53,480,74.7C640,96,800,160,960,181.3C1120,203,1280,181,1360,170.7L1440,160V0H0Z"></path>
+    </svg>
+    <p>© 2025 JobSensei. Made with ❤️ in India</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
