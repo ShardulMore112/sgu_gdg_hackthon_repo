@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile | JobSensei</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- <div class="preloader">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+        </div>
+    </div> -->
+
+    <header class="header">
+        <div class="container">
+            <div class="logo animate-left">
+                <span class="logo-icon"><i class="fas fa-robot"></i></span>
+                <h1>Job<span>Sensei</span></h1>
+            </div>
+            <nav class="nav animate-right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html" class="active">Profile</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="#" class="btn-login">Logout</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="profile-hero">
+        <div class="container">
+            <div class="profile-header animate-up">
+                <div class="profile-avatar">
+                    <img src="assets/user-avatar.jpg" alt="User Avatar" class="avatar">
+                    <div class="avatar-edit">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                </div>
+                <div class="profile-info">
+                    <h1>Rahul Sharma</h1>
+                    <p>Patna, Bihar | Seeking opportunities in Digital Marketing</p>
+                    <div class="profile-badges">
+                        <span class="badge"><i class="fas fa-star"></i> Top 10%</span>
+                        <span class="badge"><i class="fas fa-bolt"></i> Fast Learner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="profile-content">
+        <div class="container">
+            <div class="profile-grid">
+                <div class="profile-card animate-up">
+                    <h2><i class="fas fa-user-circle"></i> Personal Details</h2>
+                    <div class="detail-item">
+                        <label>Email:</label>
+                        <p>rahul.sharma@example.com</p>
+                    </div>
+                    <div class="detail-item">
+                        <label>Phone:</label>
+                        <p>+91 9876543210</p>
+                    </div>
+                    <div class="detail-item">
+                        <label>Education:</label>
+                        <p>B.Com, Patna University (2019)</p>
+                    </div>
+                    <div class="detail-item">
+                        <label>Experience:</label>
+                        <p>2 years in Retail Sales</p>
+                    </div>
+                    <button class="btn-edit">Edit Details</button>
+                </div>
+
+                <div class="profile-card animate-up delay-1">
+                    <h2><i class="fas fa-chart-line"></i> Skill Analysis</h2>
+                    <div class="skill-meter">
+                        <div class="skill">
+                            <label>Digital Marketing</label>
+                            <div class="meter">
+                                <div class="progress" style="width: 65%;"></div>
+                                <span>65%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <label>Social Media</label>
+                            <div class="meter">
+                                <div class="progress" style="width: 45%;"></div>
+                                <span>45%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <label>Content Writing</label>
+                            <div class="meter">
+                                <div class="progress" style="width: 70%;"></div>
+                                <span>70%</span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <label>SEO</label>
+                            <div class="meter">
+                                <div class="progress" style="width: 30%;"></div>
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-primary">Take Skill Assessment</button>
+                </div>
+
+                <div class="profile-card animate-up delay-2">
+                    <h2><i class="fas fa-bullseye"></i> Career Goals</h2>
+                    <div class="goals">
+                        <div class="goal active">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Transition to Digital Marketing career</p>
+                        </div>
+                        <div class="goal">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Learn SEO fundamentals in 3 months</p>
+                        </div>
+                        <div class="goal">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Build personal brand on LinkedIn</p>
+                        </div>
+                    </div>
+                    <button class="btn-edit">Edit Goals</button>
+                </div>
+
+                <div class="profile-card animate-up">
+                    <h2><i class="fas fa-lightbulb"></i> AI Recommendations</h2>
+                    <div class="recommendation">
+                        <p>"Based on your skills and goals, we recommend focusing on SEO and Google Analytics to increase your employability by 40%."</p>
+                    </div>
+                    <div class="ai-suggestions">
+                        <h3>Suggested Actions:</h3>
+                        <ul>
+                            <li>Complete "SEO Fundamentals" course</li>
+                            <li>Apply for 5 Digital Marketing internships</li>
+                            <li>Attend local digital marketing meetups</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Job<span>Sensei</span></h3>
+                    <p>Empowering careers in Tier-2 & Tier-3 cities with AI</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="jobs.html">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-envelope"></i> support@jobsensei.ai</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 JobSensei. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
