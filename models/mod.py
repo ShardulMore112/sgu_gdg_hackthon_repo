@@ -34,7 +34,20 @@ def load_documents(resume_path, skills_path=None):
                 data.extend(loader.load())
             else:
                 print(f"Unsupported file type: {path}")
-    return data
+    
+    return data  # <- this line is now actually reached
+
+
+def save_roadmap_to_json(roadmap_json, filename):
+    output_dir = r"D:\main_project_sgu\sgu_gdg_hackthon_repo\roadmaps"
+    os.makedirs(output_dir, exist_ok=True)
+    filepath = os.path.join(output_dir, filename)
+    with open(filepath, "w") as f:
+        json.dump(roadmap_json, f, indent=2)
+    print(json.dumps(roadmap_json, indent=2))  # Output only the final JSON
+    return filepath
+
+    
 
 def setup_career_advisor(resume_path, skills_path=None, ref_docs_folder=None):
     data = load_documents(resume_path, skills_path)
@@ -102,15 +115,13 @@ def extract_json_response(response_text):
 def get_roadmap_json(rag_chain, career_goal):
     query = f"Create a career roadmap in JSON format for my goal of: {career_goal}"
     response = rag_chain.invoke({"input": query})
+    if "Number of requested results" in response.get("warnings", ""):
+        response["warnings"] = None  # Suppress the specific warning message
     if "answer" not in response:
         return {"error": "No response from model."}
     return extract_json_response(response["answer"])
 
-def save_roadmap_to_json(roadmap_json, filename):
-    with open(filename, "w") as f:
-        json.dump(roadmap_json, f, indent=2)
-    print(json.dumps(roadmap_json, indent=2))  # Output only the final JSON
-    return filename
+
 
 def main():
     resume_path = input("Enter path to your resume (PDF/DOCX/TXT): ").strip()
