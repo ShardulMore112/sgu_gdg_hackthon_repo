@@ -1,81 +1,63 @@
 {
-  "career_goal": "AI Researcher",
+  "career_goal": "Web Developer",
   "roadmap": [
     {
       "step": 1,
-      "title": "Strengthen Foundational Knowledge",
-      "description": "Deepen your understanding of core AI concepts, including mathematics (linear algebra, calculus, probability, statistics), machine learning algorithms (supervised, unsupervised, reinforcement learning), and deep learning architectures (CNNs, RNNs, Transformers).",
-      "duration": "Ongoing throughout career",
+      "title": "Solidify Front-End Development Skills",
+      "description": "Master HTML, CSS, and JavaScript. Build several small projects to practice and demonstrate these skills. Focus on responsive design and modern frameworks like React, Angular, or Vue.js.",
+      "duration": "3-6 months",
       "resources": [
-        "Online courses (Coursera, edX, Udacity)",
-        "Textbooks (e.g., \"Deep Learning\" by Goodfellow et al., \"Reinforcement Learning\" by Sutton and Barto)",
-        "Academic publications (arXiv, conferences)"
+        "freeCodeCamp",
+        "Codecademy",
+        "MDN Web Docs",
+        "Frontend Masters"
       ]
     },
     {
       "step": 2,
-      "title": "Specialize in a Research Area",
-      "description": "Focus on a specific domain within AI research, such as NLP, Computer Vision, Generative AI, or Reinforcement Learning.  Align this with your interests (LLMs, NLP, RAG, Generative AI, Time Series Forecasting) and explore current research trends.",
-      "duration": "6-12 months",
+      "title": "Learn Back-End Development",
+      "description": "Choose a server-side language (Python, Node.js, Java, etc.) and a database technology (SQL, NoSQL).  Build projects that connect the front-end to the back-end, handling data and user interactions.",
+      "duration": "3-6 months",
       "resources": [
-        "Attend conferences and workshops",
-        "Read research papers in your chosen area",
-        "Follow leading researchers and labs on social media and academic platforms"
+        "freeCodeCamp",
+        "Coursera",
+        "Udemy",
+        "The Odin Project"
       ]
     },
     {
       "step": 3,
-      "title": "Build a Strong Research Portfolio",
-      "description": "Expand upon your existing projects and contribute to open-source projects.  Start with smaller, well-defined projects and gradually increase complexity. Document your work clearly and concisely, emphasizing your contributions and results.",
-      "duration": "Ongoing throughout career",
+      "title": "Version Control and Deployment",
+      "description": "Learn Git and GitHub for version control.  Deploy projects on platforms like Netlify, Vercel, or Heroku to build a portfolio of live websites.",
+      "duration": "1-2 months",
       "resources": [
-        "GitHub",
-        "Kaggle",
-        "Contribute to research papers (start with workshops or less prestigious venues)"
+        "GitHub Learning Lab",
+        "Atlassian Git Tutorials",
+        "Netlify Docs",
+        "Heroku Dev Center"
       ]
     },
     {
       "step": 4,
-      "title": "Gain Research Experience",
-      "description": "Seek research internships at universities, research labs, or companies with dedicated AI research teams. This provides valuable practical experience and mentorship.",
-      "duration": "Summer internships or longer-term positions",
+      "title": "Specialize and Build Advanced Projects",
+      "description": "Focus on a specific area like e-commerce, web applications, or interactive websites. Build more complex projects that showcase your skills and problem-solving abilities.",
+      "duration": "Ongoing",
       "resources": [
-        "University research labs",
-        "Company research internships (e.g., Google AI Residency, Facebook AI Research)",
-        "Networking at conferences and workshops"
+        "Advanced JavaScript courses",
+        "Framework specific documentation (React, Angular, Vue)",
+        "Backend framework documentation (Express, Django, Spring)"
       ]
     },
     {
       "step": 5,
-      "title": "Pursue Advanced Education (Optional but Recommended)",
-      "description": "A Master's or PhD degree in Computer Science or a related field significantly strengthens your research credentials and opens doors to more advanced research roles.",
-      "duration": "2-6 years",
+      "title": "Networking and Job Search",
+      "description": "Attend meetups, conferences, and online communities. Build your online presence through LinkedIn and contribute to open-source projects.  Tailor your resume and portfolio to target specific job roles.",
+      "duration": "Ongoing",
       "resources": [
-        "Identify universities with strong AI research programs",
-        "Prepare for graduate admissions tests (GRE, TOEFL)",
-        "Contact potential advisors"
-      ]
-    },
-    {
-      "step": 6,
-      "title": "Network and Collaborate",
-      "description": "Actively engage with the AI research community. Attend conferences, present your work, and collaborate with other researchers.",
-      "duration": "Ongoing throughout career",
-      "resources": [
-        "Conferences (NeurIPS, ICML, ICLR, ACL)",
-        "Workshops",
-        "Online forums and communities"
-      ]
-    },
-    {
-      "step": 7,
-      "title": "Publish Your Research",
-      "description": "Disseminate your findings by publishing papers in reputable conferences and journals. This establishes your credibility as a researcher and contributes to the advancement of the field.",
-      "duration": "Ongoing throughout career",
-      "resources": [
-        "Academic journals",
-        "Conference proceedings",
-        "Pre-print servers (arXiv)"
+        "LinkedIn",
+        "Meetup.com",
+        "Local tech events",
+        "Online developer communities"
       ]
     }
   ]
