@@ -377,7 +377,7 @@ a {
   .wave path {
     animation: float 6s ease-in-out infinite;
     transform-origin: center;
-    box-shadow: 2px gold solid/;
+    box-shadow: 2px gold solid;
   }
 
   .wave:nth-child(1) path {
