@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Matches | JobSensei</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo animate-left">
+                <span class="logo-icon"><i class="fas fa-robot"></i></span>
+                <h1>Job<span>Sensei</span></h1>
+            </div>
+            <nav class="nav animate-right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="jobs.html" class="active">Jobs</a></li>
+                    <li><a href="#" class="btn-login">Logout</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="jobs-hero">
+        <div class="container">
+            <div class="hero-content animate-up">
+                <h1>Your <span>Perfect Job</span> Matches</h1>
+                <p>AI-curated job opportunities based on your skills, experience, and career goals.</p>
+                <div class="search-bar animate-up delay-1">
+                    <input type="text" placeholder="Search jobs...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="jobs-section">
+        <div class="container">
+            <div class="section-header animate-up">
+                <h2>Recommended Jobs</h2>
+                <div class="filter-options">
+                    <select>
+                        <option>All Locations</option>
+                        <option>Patna</option>
+                        <option>Remote</option>
+                        <option>Hybrid</option>
+                    </select>
+                    <select>
+                        <option>All Job Types</option>
+                        <option>Full-time</option>
+                        <option>Part-time</option>
+                        <option>Internship</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="jobs-grid">
+                <div class="job-card animate-up">
+                    <div class="job-badge">BEST MATCH</div>
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <img src="assets/company1.png" alt="Digital Solutions Inc.">
+                        </div>
+                        <div class="job-title">
+                            <h3>Digital Marketing Executive</h3>
+                            <p>Digital Solutions Inc. • Patna, Bihar</p>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>1-3 years experience</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-rupee-sign"></i>
+                            <span>₹20,000 - ₹30,000/month</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Full-time</span>
+                        </div>
+                    </div>
+                    <div class="job-skills">
+                        <span class="skill-tag">SEO</span>
+                        <span class="skill-tag">Social Media</span>
+                        <span class="skill-tag">Content Writing</span>
+                    </div>
+                    <div class="job-match">
+                        <div class="match-meter">
+                            <div class="match-progress" style="width: 85%;"></div>
+                        </div>
+                        <span>85% Match</span>
+                    </div>
+                    <div class="job-actions">
+                        <a href="#" class="btn-primary">Apply Now</a>
+                        <a href="#" class="btn-secondary">Save</a>
+                    </div>
+                </div>
+
+                <div class="job-card animate-up delay-1">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <img src="assets/company2.png" alt="MarketGuru">
+                        </div>
+                        <div class="job-title">
+                            <h3>Social Media Manager</h3>
+                            <p>MarketGuru • Remote</p>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>0-1 years experience</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-rupee-sign"></i>
+                            <span>₹15,000 - ₹25,000/month</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Part-time</span>
+                        </div>
+                    </div>
+                    <div class="job-skills">
+                        <span class="skill-tag">Facebook</span>
+                        <span class="skill-tag">Instagram</span>
+                        <span class="skill-tag">Content Creation</span>
+                    </div>
+                    <div class="job-match">
+                        <div class="match-meter">
+                            <div class="match-progress" style="width: 72%;"></div>
+                        </div>
+                        <span>72% Match</span>
+                    </div>
+                    <div class="job-actions">
+                        <a href="#" class="btn-primary">Apply Now</a>
+                        <a href="#" class="btn-secondary">Save</a>
+                    </div>
+                </div>
+
+                <div class="job-card animate-up delay-2">
+                    <div class="job-badge">INTERNSHIP</div>
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <img src="assets/company3.png" alt="WebCraft">
+                        </div>
+                        <div class="job-title">   
+                            <h3>Frontend Developer Intern</h3>
+                            <p>WebCraft • Hybrid (Patna)</p>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Fresher</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-rupee-sign"></i>
+                            <span>₹10,000 - ₹15,000/month</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Internship</span>
+                        </div>
+                    </div>
+                    <div class="job-skills">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                    <div class="job-match">
+                        <div class="match-meter">
+                            <div class="match-progress" style="width: 68%;"></div>
+                        </div>
+                        <span>68% Match</span>
+                    </div>
+                    <div class="job-actions">
+                        <a href="#" class="btn-primary">Apply Now</a>
+                        <a href="#" class="btn-secondary">Save</a>
+                    </div>
+                </div>
+
+                <div class="job-card animate-up">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <img src="assets/company4.png" alt="DataInsights">
+                        </div>
+                        <div class="job-title">
+                            <h3>Data Analyst</h3>
+                            <p>DataInsights • Remote</p>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>2-4 years experience</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-rupee-sign"></i>
+                            <span>₹35,000 - ₹50,000/month</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Full-time</span>
+                        </div>
+                    </div>
+                    <div class="job-skills">
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                    <div class="job-match">
+                        <div class="match-meter">
+                            <div class="match-progress" style="width: 79%;"></div>
+                        </div>
+                        <span>79% Match</span>
+                    </div>
+                    <div class="job-actions">
+                        <a href="#" class="btn-primary">Apply Now</a>
+                        <a href="#" class="btn-secondary">Save</a>
+                    </div>
+                </div>
+
+                <div class="job-card animate-up delay-1">
+                    <div class="job-badge">URGENT</div>
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <img src="assets/company5.png" alt="TechSolutions">
+                        </div>
+                        <div class="job-title">
+                            <h3>Backend Developer</h3>
+                            <p>TechSolutions • Patna, Bihar</p>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>3-5 years experience</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-rupee-sign"></i>
+                            <span>₹50,000 - ₹70,000/month</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Full-time</span>
+                        </div>
+                    </div>
+                    <div class="job-skills">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">API Development</span>
+                    </div>
+                    <div class="job-match">
+                        <div class="match-meter">
+                            <div class="match-progress" style="width: 91%;"></div>
+                        </div>
+                        <span>91% Match</span>
+                    </div>
+                    <div class="job-actions">
+                        <a href="#" class="btn-primary">Apply Now</a>
+                        <a href="#" class="btn-secondary">Save</a>
+                    </div>
+                </div>
+
+                <div class="job-card animate-up delay-2">
+                    <div class="job-header">
+                        <div class="company-logo">
+                            <img src="assets/company6.png" alt="CreativeMinds">
+                        </div>
+                        <div class="job-title">
+                            <h3>Graphic Designer</h3>
+                            <p>CreativeMinds • Remote</p>
+                        </div>
+                    </div>
+                    <div class="job-details">
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>1-2 years experience</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-rupee-sign"></i>
+                            <span>₹18,000 - ₹25,000/month</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Part-time</span>
+                        </div>
+                    </div>
+                    <div class="job-skills">
+                        <span class="skill-tag">Photoshop</span>
+                        <span class="skill-tag">Illustrator</span>
+                        <span class="skill-tag">UI/UX</span>
+                    </div>
+                    <div class="job-match">
+                        <div class="match-meter">
+                            <div class="match-progress" style="width: 65%;"></div>
+                        </div>
+                        <span>65% Match</span>
+                    </div>
+                    <div class="job-actions">
+                        <a href="#" class="btn-primary">Apply Now</a>
+                        <a href="#" class="btn-secondary">Save</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination animate-up">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container animate-up">
+            <h2>Not Finding What You're Looking For?</h2>
+            <p>Let JobSensei's AI analyze your profile and find better matches</p>
+            <a href="profile.html" class="btn-primary">Optimize My Profile</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section animate-up">
+                    <div class="logo">
+                        <span class="logo-icon"><i class="fas fa-robot"></i></span>
+                        <h1>Job<span>Sensei</span></h1>
+                    </div>
+                    <p>AI-powered career guidance and job matching platform helping you find your dream job.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section animate-up delay-1">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="jobs.html">Jobs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section animate-up delay-2">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Patna, Bihar, India</li>
+                        <li><i class="fas fa-phone"></i> +91 9876543210</li>
+                        <li><i class="fas fa-envelope"></i> contact@jobsensei.ai</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom animate-up">
+                <p>&copy; 2023 JobSensei. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
