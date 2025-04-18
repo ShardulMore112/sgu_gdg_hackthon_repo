@@ -4,81 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JobSensei - Smart Career Navigator</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="preloader">
-        <div class="loader">
-            <div class="loader-circle"></div>
-            <div class="loader-circle"></div>
-            <div class="loader-circle"></div>
-        </div>
-    </div>
-
     <header class="header">
         <div class="container">
-            <div class="logo animate-left">
-                <span class="logo-icon"><i class="fas fa-robot"></i></span>
-                <h1>Job<span>Sensei</span></h1>
-            </div>
-            <nav class="nav animate-right">
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
+            <nav class="navbar">
+                <div class="logo">
+                    <span class="logo-icon"><i class="fas fa-robot"></i></span>
+                    <span class="logo-text">JobSensei</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="main.html">Home</a></li>
                     <li><a href="profile.html">Profile</a></li>
-                    <li><a href="courses.html">Courses</a></li>
-                    <li><a href="jobs.html">Jobs</a></li>
-                    <li><a href="#" class="btn-login">Login</a></li>
+                    <li><a href="course.html" class="active">Courses</a></li>
+                    <li><a href="job.html">Jobs</a></li>
+                    <li><a href="#" class="btn-login">Logout</a></li>
+
+                    <div></div>
+                    <li><a href="login\index.html" class="btn-login">Logint</a></li>
+                    
                 </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </nav>
-            <div class="mobile-menu">
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </header>
 
     <section class="hero">
         <div class="container">
-            <div class="hero-content animate-up">
-                <h1>Your AI-Powered <span>Career Navigator</span></h1>
-                <p>Designed specifically for job seekers in Tier-2 & Tier-3 cities. Get personalized career guidance, skill recommendations, and job matches.</p>
-                <div class="hero-buttons">
-                    <a href="profile.html" class="btn-primary">Get Started</a>
+            <div class="hero-content">
+                <h1 class="hero-title animate-pop-in">Your AI-Powered Career Guide</h1>
+                <p class="hero-subtitle animate-pop-in">Tailored for Tier-2/3 City Professionals</p>
+                <!-- <div class="hero-buttons animate-pop-in">
+                    <a href="/profile" class="btn-primary">Get Started</a>
                     <a href="#how-it-works" class="btn-secondary">How It Works</a>
-                </div>
+                </div> -->
+                <div class="button-group">
+                    <button class="btn primary">Get Started</button>
+                    <button class="btn outline">How It Works</button>
+                  </div>
+                  
             </div>
-            <div class="hero-image animate-up delay-1">
-                <img src="assets/hero-image.png" alt="Career Navigation" class="floating">
-            </div>
+            <div class="hero-image">
+                <img src="career.jpg" alt="Career Growth" class="animated-image" />
+              </div>
+              
         </div>
+        <div class="wave-container">
+            <svg class="wave" viewBox="0 0 1200 200" preserveAspectRatio="none">
+              <path d="M0,50 C300,150 900,-50 1200,50 L1200,200 L0,200 Z"></path>
+            </svg>
+            <svg class="wave" viewBox="0 0 1200 200" preserveAspectRatio="none">
+              <path d="M0,60 C400,120 800,0 1200,60 L1200,200 L0,200 Z"></path>
+            </svg>
+            <svg class="wave" viewBox="0 0 1200 200" preserveAspectRatio="none">
+              <path d="M0,70 C350,140 850,20 1200,70 L1200,200 L0,200 Z"></path>
+            </svg>
+            <svg class="wave" viewBox="0 0 1200 200" preserveAspectRatio="none">
+              <path d="M0,80 C500,100 700,40 1200,80 L1200,200 L0,200 Z"></path>
+            </svg>
+          </div>
     </section>
 
-    <section class="features" id="how-it-works">
+    <section id="how-it-works" class="features">
         <div class="container">
-            <h2 class="section-title animate-up">How JobSensei Helps You</h2>
+            <h2 class="section-title">How JobSensei Works</h2>
             <div class="features-grid">
-                <div class="feature-card animate-up">
+                <div class="feature-card animate-slide-up">
                     <div class="feature-icon">
-                        <i class="fas fa-user-tie"></i>
+                        <i class="fas fa-user-circle"></i>
                     </div>
-                    <h3>Skill Analysis</h3>
-                    <p>Our AI evaluates your current skills and identifies gaps for your dream job.</p>
+                    <h3>Create Profile</h3>
+                    <p>Tell us about your skills, education, and career aspirations.</p>
                 </div>
-                <div class="feature-card animate-up delay-1">
+                <div class="feature-card animate-slide-up">
                     <div class="feature-icon">
-                        <i class="fas fa-graduation-cap"></i>
+                        <i class="fas fa-brain"></i>
                     </div>
-                    <h3>Course Recommendations</h3>
-                    <p>Personalized learning paths with free and paid course suggestions.</p>
+                    <h3>AI Analysis</h3>
+                    <p>Our AI analyzes your profile against market demands.</p>
                 </div>
-                <div class="feature-card animate-up delay-2">
+                <div class="feature-card animate-slide-up">
                     <div class="feature-icon">
-                        <i class="fas fa-briefcase"></i>
+                        <i class="fas fa-road"></i>
                     </div>
-                    <h3>Job Matching</h3>
-                    <p>Get matched with local and remote opportunities that fit your profile.</p>
+                    <h3>Get Recommendations</h3>
+                    <p>Receive personalized career paths and skill recommendations.</p>
                 </div>
             </div>
         </div>
@@ -86,26 +103,34 @@
 
     <section class="testimonials">
         <div class="container">
-            <h2 class="section-title animate-up">Success Stories</h2>
-            <div class="testimonial-slider animate-up">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"JobSensei helped me transition from a retail job to a digital marketing career. The course recommendations were spot on!"</p>
-                    </div>
+            <h2 class="section-title">Success Stories</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"JobSensei helped me transition from a small town job to a remote developer position with 3x salary!"</p>
                     <div class="testimonial-author">
-                        <img src="assets/user1.jpg" alt="Rahul">
-                        <h4>Rahul, Patna</h4>
+                        <img src="../static/images/avatar.png" alt="Rahul K.">
+                        <span>Rahul K., Patna</span>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"I doubled my salary in 6 months by following the skill development path suggested by JobSensei's AI."</p>
-                    </div>
+                <div class="testimonial">
+                    <p>"The course recommendations were spot on. I learned exactly what the market needed in my city."</p>
                     <div class="testimonial-author">
-                        <img src="assets/user2.jpg" alt="Priya">
-                        <h4>Priya, Indore</h4>
+                        <img src="images.png" alt="Priya M.">
+                        <span>Priya M., Jaipur</span>
                     </div>
                 </div>
+                <div class="testimonial">
+                    <p>"Never thought AI could understand my small-town constraints so well. Game changer!"</p>
+                    <div class="testimonial-author">
+                        <img src="images.jpg" alt="Amit S.">
+                        <span>Amit S., Nagpur</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots"></div>
+                <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
             </div>
         </div>
     </section>
@@ -113,36 +138,34 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <h3>Job<span>Sensei</span></h3>
-                    <p>Empowering careers in Tier-2 & Tier-3 cities with AI</p>
+                <div class="footer-about">
+                    <div class="logo">
+                        <span class="logo-icon"><i class="fas fa-robot"></i></span>
+                        <span class="logo-text">JobSensei</span>
+                    </div>
+                    <p>AI-powered career navigation for tier-2/3 city professionals.</p>
                 </div>
                 <div class="footer-links">
-                    <h4>Quick Links</h4>
+                    <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="profile.html">Profile</a></li>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li><a href="jobs.html">Jobs</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/profile">Profile</a></li>
+                        <li><a href="/courses">Courses</a></li>
+                        <li><a href="/jobs">Jobs</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
-                    <h4>Contact Us</h4>
-                    <p><i class="fas fa-envelope"></i> support@jobsensei.ai</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> contact@jobsensei.ai</p>
+                    <p><i class="fas fa-phone"></i> +91 9876543210</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 JobSensei. All rights reserved.</p>
+                <p>&copy; It's Created by me</p>
             </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
-    <script src="js/auth.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

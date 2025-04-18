@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Video or Image -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="vid.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="overlay"></div>
+
+  <!-- Login Card -->
+   <!-- Add inside login-card div -->
+<div class="flame">
+
+  <div class="login-container" id="loginBox">
+    <form class="login-form" id="loginForm">
+      <h2>Login</h2>
+
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" />
+      </div>
+
+      <button type="submit" class="btn">Login</button>
+      <button type="button" class="btn reset-btn" id="resetBtn">Reset</button>
+
+    </form>
+  </div>
+</div>
+
+  <script src="app.js"></script>
+</body>
+</html>

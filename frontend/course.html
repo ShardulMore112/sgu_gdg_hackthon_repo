@@ -3,285 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recommended Courses | JobSensei</title>
-    <link rel="stylesheet" href="css/course.css">
-    <link rel="stylesheet" href="css/animations.css">
+    <title>Recommended Courses - JobSensei</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <div class="preloader">
-        <div class="loader">
-            <div class="loader-circle"></div>
-            <div class="loader-circle"></div>
-            <div class="loader-circle"></div>
-        </div>
-    </div> -->
-
     <header class="header">
         <div class="container">
-            <div class="logo animate-left">
-                <span class="logo-icon"><i class="fas fa-robot"></i></span>
-                <h1>Job<span>Sensei</span></h1>
-            </div>
-            <nav class="nav animate-right">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
+            <nav class="navbar">
+                <div class="logo">
+                    <span class="logo-icon"><i class="fas fa-robot"></i></span>
+                    <span class="logo-text">JobSensei</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="main.html">Home</a></li>
                     <li><a href="profile.html">Profile</a></li>
-                    <li><a href="courses.html" class="active">Courses</a></li>
-                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="course.html" class="active">Courses</a></li>
+                    <li><a href="job.html">Jobs</a></li>
                     <li><a href="#" class="btn-login">Logout</a></li>
                 </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </nav>
-            <div class="mobile-menu">
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </header>
 
     <section class="courses-hero">
         <div class="container">
-            <div class="hero-content animate-up">
-                <h1>Your Personalized <span>Learning Path</span></h1>
-                <p>AI-curated courses to bridge your skill gaps and prepare you for better opportunities.</p>
-                <div class="search-bar animate-up delay-1">
+            <div class="hero-content">
+                <h1 class="hero-title animate-pop-in">Personalized Learning Path</h1>
+                <p class="hero-subtitle animate-pop-in">AI-curated courses to bridge your skill gaps</p>
+                <div class="search-bar animate-pop-in">
                     <input type="text" placeholder="Search courses...">
                     <button><i class="fas fa-search"></i></button>
                 </div>
             </div>
         </div>
+        <div class="wave"></div>
     </section>
 
-    <section class="courses-section">
+    <section class="courses-content">
         <div class="container">
-            <div class="section-header animate-up">
-                <h2>Recommended For You</h2>
-                <div class="filter-options">
-                    <select>
-                        <option>All Categories</option>
-                        <option>Digital Marketing</option>
-                        <option>Web Development</option>
-                        <option>Data Science</option>
-                    </select>
-                    <select>
-                        <option>All Levels</option>
-                        <option>Beginner</option>
-                        <option>Intermediate</option>
-                        <option>Advanced</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="courses-grid">
-                <div class="course-card animate-up">
-                    <div class="course-badge">BEST MATCH</div>
-                    <div class="course-image">
-                        <img src="assets/digital-marketing-course.jpg" alt="Digital Marketing Course">
-                        <div class="play-button">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="course-content">
-                        <div class="course-provider">
-                            <img src="assets/google-icon.png" alt="Google">
-                            <span>Google Digital Garage</span>
-                        </div>
-                        <h3>Fundamentals of Digital Marketing</h3>
-                        <p class="course-description">Learn the basics of digital marketing with this free course from Google.</p>
-                        <div class="course-meta">
-                            <span><i class="fas fa-clock"></i> 40 hours</span>
-                            <span><i class="fas fa-star"></i> 4.8 (12K)</span>
-                        </div>
-                    </div>
-                    <div class="course-footer">
-                        <a href="#" class="btn-primary">Enroll Now</a>
-                        <a href="#" class="btn-link">Details</a>
-                    </div>
-                </div>
-
-                <div class="course-card animate-up delay-1">
-                    <div class="course-image">
-                        <img src="assets/seo-course.jpg" alt="SEO Course">
-                        <div class="play-button">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="course-content">
-                        <div class="course-provider">
-                            <img src="assets/youtube-icon.png" alt="YouTube">
-                            <span>YouTube</span>
-                        </div>
-                        <h3>SEO for Beginners</h3>
-                        <p class="course-description">Complete SEO tutorial to rank your website higher in search results.</p>
-                        <div class="course-meta">
-                            <span><i class="fas fa-clock"></i> 15 hours</span>
-                            <span><i class="fas fa-star"></i> 4.6 (8.2K)</span>
-                        </div>
-                    </div>
-                    <div class="course-footer">
-                        <a href="#" class="btn-primary">Watch Free</a>
-                        <a href="#" class="btn-link">Details</a>
-                    </div>
-                </div>
-
-                <div class="course-card animate-up delay-2">
-                    <div class="course-badge">POPULAR</div>
-                    <div class="course-image">
-                        <img src="assets/content-course.jpg" alt="Content Writing Course">
-                        <div class="play-button">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="course-content">
-                        <div class="course-provider">
-                            <img src="assets/coursera-icon.png" alt="Coursera">
-                            <span>Coursera</span>
-                        </div>
-                        <h3>Content Writing Masterclass</h3>
-                        <p class="course-description">Learn to create compelling content for blogs, social media, and websites.</p>
-                        <div class="course-meta">
-                            <span><i class="fas fa-clock"></i> 30 hours</span>
-                            <span><i class="fas fa-star"></i> 4.7 (5.4K)</span>
-                        </div>
-                    </div>
-                    <div class="course-footer">
-                        <a href="#" class="btn-primary">Enroll Now</a>
-                        <a href="#" class="btn-link">Details</a>
-                    </div>
-                </div>
-
-                <div class="course-card animate-up">
-                    <div class="course-image">
-                        <img src="assets/social-media-course.jpg" alt="Social Media Course">
-                        <div class="play-button">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="course-content">
-                        <div class="course-provider">
-                            <img src="assets/udemy-icon.png" alt="Udemy">
-                            <span>Udemy</span>
-                        </div>
-                        <h3>Social Media Marketing 2023</h3>
-                        <p class="course-description">Master Facebook, Instagram, LinkedIn marketing with this complete guide.</p>
-                        <div class="course-meta">
-                            <span><i class="fas fa-clock"></i> 25 hours</span>
-                            <span><i class="fas fa-star"></i> 4.5 (15K)</span>
-                        </div>
-                    </div>
-                    <div class="course-footer">
-                        <a href="#" class="btn-primary">₹499 <small>₹3,299</small></a>
-                        <a href="#" class="btn-link">Details</a>
-                    </div>
-                </div>
-
-                <div class="course-card animate-up delay-1">
-                    <div class="course-image">
-                        <img src="assets/analytics-course.jpg" alt="Analytics Course">
-                        <div class="play-button">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="course-content">
-                        <div class="course-provider">
-                            <img src="assets/google-icon.png" alt="Google">
-                            <span>Google Analytics Academy</span>
-                        </div>
-                        <h3>Google Analytics for Beginners</h3>
-                        <p class="course-description">Learn how to use Google Analytics to track and analyze website traffic.</p>
-                        <div class="course-meta">
-                            <span><i class="fas fa-clock"></i> 18 hours</span>
-                            <span><i class="fas fa-star"></i> 4.7 (9.3K)</span>
-                        </div>
-                    </div>
-                    <div class="course-footer">
-                        <a href="#" class="btn-primary">Enroll Now</a>
-                        <a href="#" class="btn-link">Details</a>
-                    </div>
-                </div>
-
-                <div class="course-card animate-up delay-2">
-                    <div class="course-badge">LOCAL</div>
-                    <div class="course-image">
-                        <img src="assets/local-course.jpg" alt="Local Course">
-                        <div class="play-button">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="course-content">
-                        <div class="course-provider">
-                            <img src="assets/local-icon.png" alt="Local">
-                            <span>Patna Digital Academy</span>
-                        </div>
-                        <h3>Digital Marketing Workshop</h3>
-                        <p class="course-description">3-day intensive workshop with hands-on training and job assistance.</p>
-                        <div class="course-meta">
-                            <span><i class="fas fa-clock"></i> 24 hours</span>
-                            <span><i class="fas fa-star"></i> 4.4 (320)</span>
-                        </div>
-                    </div>
-                    <div class="course-footer">
-                        <a href="#" class="btn-primary">₹2,999</a>
-                        <a href="#" class="btn-link">Details</a>
+            <div class="courses-filter">
+                <div class="filter-section">
+                    <h3>Filter by:</h3>
+                    <div class="filter-options">
+                        <select id="category-filter">
+                            <option value="">All Categories</option>
+                            <option value="technical">Technical</option>
+                            <option value="soft-skills">Soft Skills</option>
+                            <option value="language">Language</option>
+                        </select>
+                        <select id="level-filter">
+                            <option value="">All Levels</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                        <select id="platform-filter">
+                            <option value="">All Platforms</option>
+                            <option value="youtube">YouTube</option>
+                            <option value="coursera">Coursera</option>
+                            <option value="udemy">Udemy</option>
+                        </select>
                     </div>
                 </div>
             </div>
 
-            <div class="pagination animate-up">
-                <a href="#" class="active">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#"><i class="fas fa-chevron-right"></i></a>
-            </div>
-        </div>
-    </section>
+            <div class="recommended-courses">
+                <h2 class="section-title">Recommended For You</h2>
+                <div class="course-grid">
+                    <div class="course-card animate-slide-up">
+                        <div class="course-badge">Best Match</div>
+                        <div class="course-image">
+                            <img src="https://img.youtube.com/vi/PkZNo7MFNFg/maxresdefault.jpg" alt="JavaScript Course">
+                        </div>
+                        <div class="course-info">
+                            <h3>JavaScript - The Complete Guide</h3>
+                            <p class="course-description">Learn JavaScript from scratch with this comprehensive course covering modern JS features.</p>
+                            <div class="course-meta">
+                                <span class="course-level"><i class="fas fa-signal"></i> Intermediate</span>
+                                <span class="course-duration"><i class="far fa-clock"></i> 30 hours</span>
+                            </div>
+                            <div class="course-footer">
+                                <span class="course-platform"><i class="fab fa-youtube"></i> YouTube</span>
+                                <a href="#" class="btn-enroll">Start Learning</a>
+                            </div>
+                        </div>
+                    </div>
 
-    <section class="learning-path">
-        <div class="container">
-            <h2 class="section-title animate-up">Your Personalized Learning Path</h2>
-            <div class="path-container animate-up delay-1">
-                <div class="path-step completed">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>Digital Marketing Fundamentals</h3>
-                        <p>Google Digital Garage - 40 hours</p>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 100%;"></div>
-                        </div>
-                        <span class="status">Completed</span>
-                    </div>
+                    <!-- More course cards would go here -->
                 </div>
-                <div class="path-step current">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>SEO Basics</h3>
-                        <p>YouTube Free Course - 15 hours</p>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 65%;"></div>
+            </div>
+
+            <div class="skill-path">
+                <h2 class="section-title">Skill Development Path</h2>
+                <div class="path-container">
+                    <div class="path-item current">
+                        <div class="path-icon">
+                            <i class="fas fa-check-circle"></i>
                         </div>
-                        <span class="status">In Progress (65%)</span>
+                        <div class="path-content">
+                            <h3>HTML & CSS Fundamentals</h3>
+                            <p>Master the basics of web development</p>
+                        </div>
                     </div>
-                </div>
-                <div class="path-step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>Content Writing Mastery</h3>
-                        <p>Coursera - 30 hours</p>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 0%;"></div>
+                    <div class="path-item next">
+                        <div class="path-icon">
+                            <i class="fas fa-arrow-down"></i>
                         </div>
-                        <span class="status">Up Next</span>
+                        <div class="path-content">
+                            <h3>JavaScript Basics</h3>
+                            <p>Learn core programming concepts</p>
+                        </div>
                     </div>
-                </div>
-                <div class="path-step">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h3>Google Analytics Certification</h3>
-                        <p>Google Analytics Academy - 18 hours</p>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 0%;"></div>
+                    <div class="path-item">
+                        <div class="path-icon">
+                            <i class="far fa-circle"></i>
                         </div>
-                        <span class="status">Coming Soon</span>
+                        <div class="path-content">
+                            <h3>React Framework</h3>
+                            <p>Build modern web applications</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -289,38 +136,9 @@
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h3>Job<span>Sensei</span></h3>
-                    <p>Empowering careers in Tier-2 & Tier-3 cities with AI</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="profile.html">Profile</a></li>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li><a href="jobs.html">Jobs</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contact Us</h4>
-                    <p><i class="fas fa-envelope"></i> support@jobsensei.ai</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 JobSensei. All rights reserved.</p>
-            </div>
-        </div>
+        <!-- Same footer as index.html -->
     </footer>
 
-    <script src="js/main.js"></script>
-    <script src="js/auth.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
