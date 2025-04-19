@@ -953,7 +953,6 @@ img {
 }
 
 input[type="range"] {
-    -webkit-appearance: none;
     width: 100%;
     height: 8px;
     border-radius: 4px;
@@ -1152,7 +1151,6 @@ input[type="range"]::-webkit-slider-thumb {
     margin-bottom: 10px;
     font-size: 1.2rem;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
