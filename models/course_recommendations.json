@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Machine Learning",
+    "platform": "Coursera",
+    "description": "A comprehensive introduction to machine learning concepts and techniques taught by Andrew Ng.",
+    "url": "https://www.coursera.org/learn/machine-learning",
+    "skill_category": "Foundational Machine Learning",
+    "Price": "Free Access",
+    "Time ": "Approximately 60 hours"
+  },
+  {
+    "title": "Deep Learning Specialization",
+    "platform": "deeplearning.ai",
+    "description": "A series of courses covering various aspects of deep learning, including neural networks, convolutional networks, and recurrent networks.",
+    "url": "https://www.deeplearning.ai/deep-learning-specialization/",
+    "skill_category": "Deep Learning",
+    "Price": "\u20b93,262/month",
+    "Time ": "Approximately 4 months"
+  },
+  {
+    "title": "Natural Language Processing with Deep Learning",
+    "platform": "Coursera",
+    "description": "Covers advanced NLP techniques using deep learning models.",
+    "url": "https://www.coursera.org/specializations/natural-language-processing",
+    "skill_category": "Natural Language Processing",
+    "Price": "\u20b93,262/month",
+    "Time ": "Approximately 4 months"
+  },
+  {
+    "title": "Practical Deep Learning for Coders",
+    "platform": "fast.ai",
+    "description": "A practical, code-first approach to deep learning using PyTorch.",
+    "url": "https://course.fast.ai/",
+    "skill_category": "Deep Learning, PyTorch",
+    "Price": "Free",
+    "Time ": "Approximately 7 weeks"
+  },
+  {
+    "title": "MLOps (Machine Learning Operations) Fundamentals",
+    "platform": "CloudSkillsBoost (AWS Training)",
+    "description": "Learn the basics of MLOps for building and deploying machine learning models.",
+    "url": "https://www.cloudskillsboost.google/course_templates/533",
+    "skill_category": "MLOps",
+    "Price": "Free",
+    "Time ": "Varies"
+  },
+  {
+    "title": "Building and Deploying Large Language Models",
+    "platform": "DeepLearning.AI",
+    "description": "Covers the practical aspects of building and deploying LLMs.",
+    "url": "https://www.deeplearning.ai/short-courses/building-and-deploying-large-language-models/",
+    "skill_category": "Large Language Models, Deployment",
+    "Price": "Included with a Coursera Plus subscription.",
+    "Time ": "Approximately 4 hours"
+  },
+  {
+    "title": "Computer Vision",
+    "platform": "Udacity",
+    "description": "Explores computer vision concepts and techniques, including image classification and object detection.",
+    "url": "https://www.udacity.com/course/computer-vision-nanodegree--nd891",
+    "skill_category": "Computer Vision",
+    "Price": "\u20b996,284",
+    "Time ": "4 months"
+  },
+  {
+    "title": "Introduction to Time Series Analysis",
+    "platform": "DataCamp",
+    "description": "Provides a foundation in time series analysis and forecasting techniques.",
+    "url": "https://www.datacamp.com/courses/introduction-to-time-series-analysis",
+    "skill_category": "Time Series Analysis",
+    "Price": "Included with a DataCamp subscription.",
+    "Time ": "Approximately 4 hours"
+  },
+  {
+    "title": "Software Engineering Practices",
+    "platform": "Udacity",
+    "description": "Teaches best practices for software development, version control, and testing.",
+    "url": "https://www.udacity.com/course/software-engineering-practices--ud789",
+    "skill_category": "Software Engineering",
+    "Price": "free",
+    "Time ": "Approximately 2 months"
+  },
+  {
+    "title": "SQL for Data Science",
+    "platform": "Coursera",
+    "description": "Covers essential SQL skills for working with data in a data science context.",
+    "url": "https://www.coursera.org/specializations/learn-sql-basics-data-science",
+    "skill_category": "Data Manipulation, SQL",
+    "Price": "\u20b93,262/month",
+    "Time ": "Approx. 2 months"
+  },
+  {
+    "title": "How Large Language Models Work",
+    "platform": "YouTube",
+    "description": "Free tutorial on Large Language Models (LLMs)",
+    "url": "https://www.youtube.com/watch?v=5sLYAQS9sWQ",
+    "skill_category": "Large Language Models (LLMs)",
+    "is_free": true,
+    "thumbnail": "https://i.ytimg.com/vi/5sLYAQS9sWQ/mqdefault.jpg"
+  },
+  {
+    "title": "Natural Language Processing In 5 Minutes | What Is NLP And How Does It Work? | Simplilearn",
+    "platform": "YouTube",
+    "description": "Free tutorial on Natural Language Processing (NLP)",
+    "url": "https://www.youtube.com/watch?v=CMrHM8a3hqw",
+    "skill_category": "Natural Language Processing (NLP)",
+    "is_free": true,
+    "thumbnail": "https://i.ytimg.com/vi/CMrHM8a3hqw/mqdefault.jpg"
+  },
+  {
+    "title": "What is Retrieval-Augmented Generation (RAG)?",
+    "platform": "YouTube",
+    "description": "Free tutorial on Retrieval-Augmented Generation (RAG)",
+    "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M",
+    "skill_category": "Retrieval-Augmented Generation (RAG)",
+    "is_free": true,
+    "thumbnail": "https://i.ytimg.com/vi/T-D1OfcDW1M/mqdefault.jpg"
+  },
+  {
+    "title": "Deep Learning | What is Deep Learning? | Deep Learning Tutorial For Beginners | 2023 | Simplilearn",
+    "platform": "YouTube",
+    "description": "Free tutorial on Deep Learning",
+    "url": "https://www.youtube.com/watch?v=6M5VXKLf4D4",
+    "skill_category": "Deep Learning",
+    "is_free": true,
+    "thumbnail": "https://i.ytimg.com/vi/6M5VXKLf4D4/mqdefault.jpg"
+  },
+  {
+    "title": "Computer Vision Explained in 5 Minutes | AI Explained",
+    "platform": "YouTube",
+    "description": "Free tutorial on Computer Vision",
+    "url": "https://www.youtube.com/watch?v=puB-4LuRNys",
+    "skill_category": "Computer Vision",
+    "is_free": true,
+    "thumbnail": "https://i.ytimg.com/vi/puB-4LuRNys/mqdefault.jpg"
+  }
+]
