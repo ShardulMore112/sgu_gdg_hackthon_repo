@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile - JobSensei</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    
     <header class="header">
         <div class="container">
             <nav class="navbar">
                 <div class="logo">
-                    <span class="logo-icon"><i class="fas fa-robot"></i></span>
+                    <span class="logo-icon">🧠</span>
                     <span class="logo-text">JobSensei</span>
                 </div>
                 <ul class="nav-links">
-                    <li><a href="main.html">Home</a></li>
-                    <li><a href="profile.html">Profile</a></li>
-                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html" class="active">Profile</a></li>
+                    <li><a href="courses.html">Courses</a></li>
                     <li><a href="jobs.html">Jobs</a></li>
-                    <li><a href="#" class="btn-login">Logout</a></li>
                 </ul>
+                <!-- <div class="auth-buttons">
+                    <button class="btn btn-login">Login</button>
+                    <button class="btn btn-signup">Sign Up</button>
+                </div> -->
                 <div class="hamburger">
                     <div class="line"></div>
                     <div class="line"></div>
@@ -34,116 +39,291 @@
 
     <section class="profile-hero">
         <div class="container">
-            <div class="profile-header animate-pop-in">
-                <div class="profile-avatar">
-                    <img src="../static/images/avatar.png" alt="User Avatar" id="user-avatar">
-                    <button class="avatar-edit"><i class="fas fa-camera"></i></button>
-                </div>
-                <div class="profile-info">
-                    <h1 id="user-name">Rahul Sharma</h1>
-                    <p class="profile-location"><i class="fas fa-map-marker-alt"></i> <span id="user-location">Jaipur, Rajasthan</span></p>
-                    <div class="profile-badges">
-                        <span class="badge"><i class="fas fa-medal"></i> Explorer</span>
-                        <span class="badge"><i class="fas fa-star"></i> 85% Match</span>
-                    </div>
-                </div>
-            </div>
+            <h1 class="section-title slide-up">My <span class="highlight">Profile</span></h1>
         </div>
     </section>
 
-    <section class="profile-content">
+    <section class="profile-section">
         <div class="container">
-            <div class="profile-grid">
-                <div class="profile-section animate-slide-up">
-                    <h2><i class="fas fa-user-graduate"></i> Education</h2>
-                    <div class="education-item">
-                        <h3>Bachelor of Computer Applications</h3>
-                        <p>Rajasthan University | 2018-2021</p>
+            <div class="profile-container">
+                <div class="profile-sidebar slide-left">
+                    <div class="profile-card">
+                        <div class="profile-pic">
+                            <img src="images/user-avatar.png" alt="User Avatar">
+                            <button class="edit-pic"><i class="fas fa-camera"></i></button>
+                        </div>
+                        <h3 class="profile-name">Rahul Sharma</h3>
+                        <p class="profile-location"><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan</p>
+                        <div class="profile-completion">
+                            <div class="completion-bar">
+                                <div class="completion-fill" style="width: 75%;"></div>
+                            </div>
+                            <span>Profile 75% complete</span>
+                        </div>
                     </div>
-                    <button class="btn-add"><i class="fas fa-plus"></i> Add Education</button>
-                </div>
-
-                <div class="profile-section animate-slide-up">
-                    <h2><i class="fas fa-briefcase"></i> Experience</h2>
-                    <div class="experience-item">
-                        <h3>Junior Web Developer</h3>
-                        <p>LocalTech Solutions | 2021-Present</p>
+                    
+                    <div class="profile-menu">
                         <ul>
-                            <li>Developed and maintained company websites</li>
-                            <li>Implemented responsive designs</li>
+                            <li class="active"><a href="#personal-info"><i class="fas fa-user"></i> Personal Info</a></li>
+                            <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                            <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                            <li><a href="#preferences"><i class="fas fa-cog"></i> Preferences</a></li>
                         </ul>
                     </div>
-                    <button class="btn-add"><i class="fas fa-plus"></i> Add Experience</button>
                 </div>
-
-                <div class="profile-section animate-slide-up">
-                    <h2><i class="fas fa-code"></i> Skills</h2>
-                    <div class="skills-container">
-                        <div class="skill-category">
-                            <h3>Technical Skills</h3>
-                            <div class="skill-tags">
-                                <span class="skill-tag">HTML</span>
-                                <span class="skill-tag">CSS</span>
-                                <span class="skill-tag">JavaScript</span>
-                                <span class="skill-tag">Python</span>
+                
+                <div class="profile-content slide-right">
+                    <div id="personal-info" class="profile-tab active">
+                        <h2>Personal Information</h2>
+                        <form class="profile-form">
+                            <div class="form-group">
+                                <label for="fullname">Full Name</label>
+                                <input type="text" id="fullname" value="Rahul Sharma">
                             </div>
-                        </div>
-                        <div class="skill-category">
-                            <h3>Soft Skills</h3>
-                            <div class="skill-tags">
-                                <span class="skill-tag">Communication</span>
-                                <span class="skill-tag">Teamwork</span>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" value="rahul.sharma@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" id="phone" value="+91 9876543210">
+                                </div>
                             </div>
-                        </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="city">City</label>
+                                    <input type="text" id="city" value="Jaipur">
+                                </div>
+                                <div class="form-group">
+                                    <label for="state">State</label>
+                                    <select id="state">
+                                        <option>Rajasthan</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="bio">Bio</label>
+                                <textarea id="bio">Full-stack developer with 3 years of experience looking for remote opportunities.</textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Save Changes</button>
+                        </form>
                     </div>
-                    <button class="btn-add"><i class="fas fa-plus"></i> Add Skills</button>
-                </div>
-
-                <div class="profile-section animate-slide-up">
-                    <h2><i class="fas fa-bullseye"></i> Career Goals</h2>
-                    <div class="goals-container">
-                        <div class="goal-item">
-                            <div class="goal-icon">
-                                <i class="fas fa-laptop-code"></i>
-                            </div>
-                            <div class="goal-content">
-                                <h3>Become a Full Stack Developer</h3>
-                                <p>Target: Within 2 years</p>
-                                <div class="progress-bar">
-                                    <div class="progress" style="width: 45%;"></div>
+                    
+                    <div id="skills" class="profile-tab">
+                        <h2>Your Skills</h2>
+                        <div class="skills-assessment">
+                            <h3>AI Assessment Results</h3>
+                            <div class="skill-meter">
+                                <div class="skill">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%;"></div>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill">
+                                    <span class="skill-name">Python</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 70%;"></div>
+                                    </div>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                                <div class="skill">
+                                    <span class="skill-name">React</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 65%;"></div>
+                                    </div>
+                                    <span class="skill-percent">65%</span>
+                                </div>
+                                <div class="skill">
+                                    <span class="skill-name">Node.js</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 75%;"></div>
+                                    </div>
+                                    <span class="skill-percent">75%</span>
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="add-skills">
+                            <h3>Add More Skills</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML <i class="fas fa-times"></i></span>
+                                <span class="skill-tag">CSS <i class="fas fa-times"></i></span>
+                                <span class="skill-tag">MongoDB <i class="fas fa-times"></i></span>
+                                <span class="skill-tag">UI/UX <i class="fas fa-times"></i></span>
+                            </div>
+                            <div class="skill-input">
+                                <input type="text" placeholder="Add new skill">
+                                <button class="btn btn-small">Add</button>
+                            </div>
+                        </div>
                     </div>
-                    <button class="btn-add"><i class="fas fa-plus"></i> Add Goal</button>
+                    
+                    <div id="education" class="profile-tab">
+                        <h2>Education</h2>
+                        <div class="education-list">
+                            <div class="education-item">
+                                <div class="edu-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="edu-details">
+                                    <h3>Bachelor of Technology in Computer Science</h3>
+                                    <p>Rajasthan Technical University</p>
+                                    <p class="edu-duration">2016 - 2020</p>
+                                </div>
+                                <button class="btn-edit"><i class="fas fa-edit"></i></button>
+                            </div>
+                            <div class="education-item">
+                                <div class="edu-icon">
+                                    <i class="fas fa-school"></i>
+                                </div>
+                                <div class="edu-details">
+                                    <h3>Higher Secondary School</h3>
+                                    <p>St. Xavier's School, Jaipur</p>
+                                    <p class="edu-duration">2014 - 2016</p>
+                                </div>
+                                <button class="btn-edit"><i class="fas fa-edit"></i></button>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary"><i class="fas fa-plus"></i> Add Education</button>
+                    </div>
+                    
+                    <div id="experience" class="profile-tab">
+                        <h2>Work Experience</h2>
+                        <div class="experience-list">
+                            <div class="experience-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div class="exp-details">
+                                    <h3>Software Developer</h3>
+                                    <p>Tech Solutions Pvt. Ltd.</p>
+                                    <p class="exp-duration">Jan 2021 - Present</p>
+                                    <p class="exp-description">Developed and maintained web applications using MERN stack. Collaborated with cross-functional teams to deliver high-quality software solutions.</p>
+                                </div>
+                                <button class="btn-edit"><i class="fas fa-edit"></i></button>
+                            </div>
+                            <div class="experience-item">
+                                <div class="exp-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div class="exp-details">
+                                    <h3>Intern</h3>
+                                    <p>Digital Innovations</p>
+                                    <p class="exp-duration">Jun 2020 - Dec 2020</p>
+                                    <p class="exp-description">Assisted in front-end development and learned industry best practices.</p>
+                                </div>
+                                <button class="btn-edit"><i class="fas fa-edit"></i></button>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary"><i class="fas fa-plus"></i> Add Experience</button>
+                    </div>
+                    
+                    <div id="preferences" class="profile-tab">
+                        <h2>Career Preferences</h2>
+                        <form class="preferences-form">
+                            <div class="form-group">
+                                <label>Job Type</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox-container">Full-time
+                                        <input type="checkbox" checked>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">Part-time
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">Remote
+                                        <input type="checkbox" checked>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="checkbox-container">Hybrid
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="industry">Preferred Industry</label>
+                                <select id="industry" multiple>
+                                    <option selected>Information Technology</option>
+                                    <option>Finance</option>
+                                    <option>Healthcare</option>
+                                    <option>Education</option>
+                                    <option>E-commerce</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="salary">Expected Salary (₹)</label>
+                                <input type="range" id="salary" min="200000" max="2000000" step="50000" value="600000">
+                                <div class="salary-value">₹6,00,000</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="location-pref">Location Preference</label>
+                                <div class="location-pref">
+                                    <label class="radio-container">Anywhere in India
+                                        <input type="radio" name="location" checked>
+                                        <span class="radiomark"></span>
+                                    </label>
+                                    <label class="radio-container">My current city only
+                                        <input type="radio" name="location">
+                                        <span class="radiomark"></span>
+                                    </label>
+                                    <label class="radio-container">Specific cities
+                                        <input type="radio" name="location">
+                                        <span class="radiomark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Save Preferences</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-
-            <div class="profile-actions">
-                <button class="btn-primary" id="analyze-profile">
-                    <i class="fas fa-brain"></i> Analyze My Profile with AI
-                </button>
-                <button class="btn-secondary" id="generate-resume">
-                    <i class="fas fa-file-alt"></i> Generate Smart Resume
-                </button>
             </div>
         </div>
     </section>
 
     <footer class="footer">
-        <!-- Same footer as index.html -->
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">
+                        <span class="logo-icon">🧠</span>
+                        <span class="logo-text">JobSensei</span>
+                    </div>
+                    <p>Empowering professionals in Tier-2 and Tier-3 cities with AI-driven career guidance.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="jobs.html">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> contact@jobsensei.ai</p>
+                    <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 JobSensei. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <div class="modal" id="profile-modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <h2>Edit Profile</h2>
-            <form id="profile-form">
-                <!-- Form fields would go here -->
-            </form>
-        </div>
-    </div>
-
-    <script src="app.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

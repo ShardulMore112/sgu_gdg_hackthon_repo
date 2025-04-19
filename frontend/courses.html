@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - JobSensei</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <span class="logo-icon">🧠</span>
+                    <span class="logo-text">JobSensei</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <button class="btn btn-login">Login</button>
+                    <button class="btn btn-signup">Sign Up</button>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="courses-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title slide-up">Enhance Your <span class="highlight">Skills</span></h1>
+                <p class="hero-subtitle">AI-curated courses to bridge your skill gaps and boost your career</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search courses...">
+                    <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-section">
+        <div class="container">
+            <div class="courses-filter">
+                <div class="filter-options">
+                    <div class="filter-group">
+                        <label>Filter by:</label>
+                        <select>
+                            <option>All Categories</option>
+                            <option>Technology</option>
+                            <option>Business</option>
+                            <option>Design</option>
+                            <option>Marketing</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Sort by:</label>
+                        <select>
+                            <option>Recommended</option>
+                            <option>Popularity</option>
+                            <option>Newest</option>
+                            <option>Rating</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Level:</label>
+                        <div class="level-buttons">
+                            <button class="btn btn-small active">All</button>
+                            <button class="btn btn-small">Beginner</button>
+                            <button class="btn btn-small">Intermediate</button>
+                            <button class="btn btn-small">Advanced</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ai-recommendation">
+                <div class="ai-header">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Recommended Courses For You</h3>
+                </div>
+                <div class="courses-grid">
+                    <div class="course-card pop-in">
+                        <div class="course-badge">Recommended</div>
+                        <div class="course-image">
+                            <img src="images/course-js.jpg" alt="JavaScript Course">
+                            <div class="course-provider">Udemy</div>
+                        </div>
+                        <div class="course-details">
+                            <h3>Modern JavaScript From The Beginning</h3>
+                            <p class="course-instructor">Brad Traversy</p>
+                            <div class="course-meta">
+                                <span><i class="fas fa-star"></i> 4.8 (12,345)</span>
+                                <span><i class="fas fa-clock"></i> 22 hrs</span>
+                            </div>
+                            <div class="course-skills">
+                                <span>JavaScript</span>
+                                <span>ES6+</span>
+                                <span>DOM</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">₹649 <span class="original-price">₹3,299</span></div>
+                                <button class="btn btn-small">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card pop-in" style="animation-delay: 0.1s;">
+                        <div class="course-badge">Skill Match: 92%</div>
+                        <div class="course-image">
+                            <img src="images/course-python.jpg" alt="Python Course">
+                            <div class="course-provider">Coursera</div>
+                        </div>
+                        <div class="course-details">
+                            <h3>Python for Data Science and AI</h3>
+                            <p class="course-instructor">IBM</p>
+                            <div class="course-meta">
+                                <span><i class="fas fa-star"></i> 4.7 (8,932)</span>
+                                <span><i class="fas fa-clock"></i> 18 hrs</span>
+                            </div>
+                            <div class="course-skills">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>NumPy</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">Free</div>
+                                <button class="btn btn-small">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card pop-in" style="animation-delay: 0.2s;">
+                        <div class="course-badge">Popular</div>
+                        <div class="course-image">
+                            <img src="images/course-react.jpg" alt="React Course">
+                            <div class="course-provider">YouTube</div>
+                        </div>
+                        <div class="course-details">
+                            <h3>React - The Complete Guide</h3>
+                            <p class="course-instructor">Academind</p>
+                            <div class="course-meta">
+                                <span><i class="fas fa-star"></i> 4.9 (15,672)</span>
+                                <span><i class="fas fa-clock"></i> 40 hrs</span>
+                            </div>
+                            <div class="course-skills">
+                                <span>React</span>
+                                <span>Hooks</span>
+                                <span>Redux</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">Free</div>
+                                <button class="btn btn-small">Watch Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="all-courses">
+                <h2 class="section-title">All <span class="highlight">Courses</span></h2>
+                <div class="courses-grid">
+                    <div class="course-card slide-up">
+                        <div class="course-image">
+                            <img src="images/course-node.jpg" alt="Node.js Course">
+                            <div class="course-provider">Udemy</div>
+                        </div>
+                        <div class="course-details">
+                            <h3>Node.js, Express, MongoDB Bootcamp</h3>
+                            <p class="course-instructor">Jonas Schmedtmann</p>
+                            <div class="course-meta">
+                                <span><i class="fas fa-star"></i> 4.8 (10,245)</span>
+                                <span><i class="fas fa-clock"></i> 35 hrs</span>
+                            </div>
+                            <div class="course-skills">
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">₹799 <span class="original-price">₹3,999</span></div>
+                                <button class="btn btn-small">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card slide-up" style="animation-delay: 0.1s;">
+                        <div class="course-image">
+                            <img src="images/course-aws.jpg" alt="AWS Course">
+                            <div class="course-provider">Pluralsight</div>
+                        </div>
+                        <div class="course-details">
+                            <h3>AWS Certified Solutions Architect</h3>
+                            <p class="course-instructor">Linux Academy</p>
+                            <div class="course-meta">
+                                <span><i class="fas fa-star"></i> 4.6 (7,832)</span>
+                                <span><i class="fas fa-clock"></i> 28 hrs</span>
+                            </div>
+                            <div class="course-skills">
+                                <span>AWS</span>
+                                <span>Cloud</span>
+                                <span>Architecture</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">₹1,299/month</div>
+                                <button class="btn btn-small">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card slide-up" style="animation-delay: 0.2s;">
+                        <div class="course-image">
+                            <img src="images/course-uiux.jpg" alt="UI/UX Course">
+                            <div class="course-provider">YouTube</div>
+                        </div>
+                        <div class="course-details">
+                            <h3>UI/UX Design Fundamentals</h3>
+                            <p class="course-instructor">DesignCourse</p>
+                            <div class="course-meta">
+                                <span><i class="fas fa-star"></i> 4.7 (5,421)</span>
+                                <span><i class="fas fa-clock"></i> 12 hrs</span>
+                            </div>
+                            <div class="course-skills">
+                                <span>Figma</span>
+                                <span>UI Design</span>
+                                <span>UX Principles</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">Free</div>
+                                <button class="btn btn-small">Watch Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card slide-up" style="animation-delay: 0.3s;">
+                        <div class="course-image">
+                            <img src="images/course-dsa.jpg" alt="DSA Course">
+                            <div class="course-provider">Coursera</div>
+                        </div>
+                        <div class="course-details">
+                            <h3>Data Structures & Algorithms</h3>
+                            <p class="course-instructor">Stanford University</p>
+                            <div class="course-meta">
+                                <span><i class="fas fa-star"></i> 4.9 (23,456)</span>
+                                <span><i class="fas fa-clock"></i> 50 hrs</span>
+                            </div>
+                            <div class="course-skills">
+                                <span>Algorithms</span>
+                                <span>Data Structures</span>
+                                <span>Problem Solving</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">Free</div>
+                                <button class="btn btn-small">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card slide-up" style="animation-delay: 0.4s;">
+                        <div class="course-image">
+                            <img src="images/course-ai.jpg" alt="AI Course">
+                            <div class="course-provider">edX</div>
+                        </div>
+                        <div class="course-details">
+                            <h3>Introduction to Artificial Intelligence</h3>
+                            <p class="course-instructor">Harvard University</p>
+                            <div class="course-meta">
+                                <span><i class="fas fa-star"></i> 4.8 (9,876)</span>
+                                <span><i class="fas fa-clock"></i> 30 hrs</span>
+                            </div>
+                            <div class="course-skills">
+                                <span>AI</span>
+                                <span>Machine Learning</span>
+                                <span>Neural Networks</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">₹12,999 <span class="original-price">₹24,999</span></div>
+                                <button class="btn btn-small">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card slide-up" style="animation-delay: 0.5s;">
+                        <div class="course-image">
+                            <img src="images/course-softskills.jpg" alt="Soft Skills Course">
+                            <div class="course-provider">LinkedIn Learning</div>
+                        </div>
+                        <div class="course-details">
+                            <h3>Developing Your Professional Skills</h3>
+                            <p class="course-instructor">Dorie Clark</p>
+                            <div class="course-meta">
+                                <span><i class="fas fa-star"></i> 4.5 (3,456)</span>
+                                <span><i class="fas fa-clock"></i> 8 hrs</span>
+                            </div>
+                            <div class="course-skills">
+                                <span>Communication</span>
+                                <span>Leadership</span>
+                                <span>Teamwork</span>
+                            </div>
+                            <div class="course-footer">
+                                <div class="course-price">₹1,999/month</div>
+                                <button class="btn btn-small">Enroll Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pagination">
+                    <button class="btn btn-small"><i class="fas fa-chevron-left"></i></button>
+                    <button class="btn btn-small active">1</button>
+                    <button class="btn btn-small">2</button>
+                    <button class="btn btn-small">3</button>
+                    <button class="btn btn-small">4</button>
+                    <button class="btn btn-small"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="learning-path">
+                <h2 class="section-title">Your Personalized <span class="highlight">Learning Path</span></h2>
+                <div class="path-container">
+                    <div class="path-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 30%;"></div>
+                        </div>
+                        <div class="progress-text">30% Complete</div>
+                    </div>
+                    <div class="path-steps">
+                        <div class="path-step completed">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>JavaScript Fundamentals</h3>
+                                <p>Modern JavaScript From The Beginning</p>
+                                <div class="step-status">Completed <i class="fas fa-check"></i></div>
+                            </div>
+                        </div>
+                        <div class="path-step current">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>React Basics</h3>
+                                <p>React - The Complete Guide</p>
+                                <div class="step-status">In Progress (45%)</div>
+                            </div>
+                        </div>
+                        <div class="path-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Node.js Backend</h3>
+                                <p>Node.js, Express, MongoDB Bootcamp</p>
+                                <div class="step-status">Up Next</div>
+                            </div>
+                        </div>
+                        <div class="path-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h3>Full Stack Project</h3>
+                                <p>Build a complete MERN stack application</p>
+                                <div class="step-status">Locked</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">
+                        <span class="logo-icon">🧠</span>
+                        <span class="logo-text">JobSensei</span>
+                    </div>
+                    <p>Empowering professionals in Tier-2 and Tier-3 cities with AI-driven career guidance.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="jobs.html">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> contact@jobsensei.ai</p>
+                    <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 JobSensei. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Recommendations - JobSensei</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Recommendations - JobSensei</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      
+        
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                        <span class="logo-icon">🧠</span>
+                        <span class="logo-text">JobSensei</span>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="jobs.html" class="active">Jobs</a></li>
+                    </ul>
+                    <div class="auth-buttons">
+                        <button class="btn btn-login">Login</button>
+                        <button class="btn btn-signup">Sign Up</button>
+                    </div>
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    
+        <section class="jobs-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title slide-up">Find Your <span class="highlight">Dream Job</span></h1>
+                    <p class="hero-subtitle">AI-powered job recommendations tailored for Tier-2/3 city professionals</p>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search jobs...">
+                        <select>
+                            <option>All Locations</option>
+                            <option>Remote</option>
+                            <option>Jaipur</option>
+                            <option>Indore</option>
+                            <option>Lucknow</option>
+                        </select>
+                        <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="jobs-section">
+            <div class="container">
+                <div class="jobs-filter">
+                    <div class="filter-options">
+                        <div class="filter-group">
+                            <label>Filter by:</label>
+                            <select>
+                                <option>All Categories</option>
+                                <option>Technology</option>
+                                <option>Business</option>
+                                <option>Design</option>
+                                <option>Marketing</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Job Type:</label>
+                            <div class="type-buttons">
+                                <button class="btn btn-small active">All</button>
+                                <button class="btn btn-small">Full-time</button>
+                                <button class="btn btn-small">Part-time</button>
+                                <button class="btn btn-small">Remote</button>
+                            </div>
+                        </div>
+                        <div class="filter-group">
+                            <label>Experience:</label>
+                            <div class="exp-buttons">
+                                <button class="btn btn-small">Entry</button>
+                                <button class="btn btn-small active">Mid</button>
+                                <button class="btn btn-small">Senior</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ai-recommendation">
+                    <div class="ai-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>AI Recommended Jobs For You</h3>
+                    </div>
+                    <div class="jobs-grid">
+                        <div class="job-card pop-in">
+                            <div class="job-badge">Best Match (95%)</div>
+                            <div class="job-header">
+                                <div class="company-logo">
+                                    <img src="images/company-tech.png" alt="Tech Solutions">
+                                </div>
+                                <div class="job-title">
+                                    <h3>Full Stack Developer</h3>
+                                    <p>Tech Solutions Pvt. Ltd.</p>
+                                </div>
+                            </div>
+                            <div class="job-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Jaipur (Remote possible)</p>
+                                <p><i class="fas fa-briefcase"></i> 2-4 years experience</p>
+                                <p><i class="fas fa-rupee-sign"></i> ₹8-12 LPA</p>
+                                <div class="job-skills">
+                                    <span>JavaScript</span>
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                            <div class="job-footer">
+                                <div class="job-posted">Posted 2 days ago</div>
+                                <button class="btn btn-primary">Apply Now</button>
+                            </div>
+                        </div>
+                        
+                        <div class="job-card pop-in" style="animation-delay: 0.1s;">
+                            <div class="job-badge">Good Fit (88%)</div>
+                            <div class="job-header">
+                                <div class="company-logo">
+                                    <img src="images/company-digital.png" alt="Digital Innovations">
+                                </div>
+                                <div class="job-title">
+                                    <h3>Frontend Developer</h3>
+                                    <p>Digital Innovations</p>
+                                </div>
+                            </div>
+                            <div class="job-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Remote</p>
+                                <p><i class="fas fa-briefcase"></i> 1-3 years experience</p>
+                                <p><i class="fas fa-rupee-sign"></i> ₹6-9 LPA</p>
+                                <div class="job-skills">
+                                    <span>React</span>
+                                    <span>Redux</span>
+                                    <span>TypeScript</span>
+                                </div>
+                            </div>
+                            <div class="job-footer">
+                                <div class="job-posted">Posted 1 week ago</div>
+                                <button class="btn btn-primary">Apply Now</button>
+                            </div>
+                        </div>
+                        
+                        <div class="job-card pop-in" style="animation-delay: 0.2s;">
+                            <div class="job-badge">Local Opportunity</div>
+                            <div class="job-header">
+                                <div class="company-logo">
+                                    <img src="images/company-startup.png" alt="StartUp Ventures">
+                                </div>
+                                <div class="job-title">
+                                    <h3>Node.js Backend Developer</h3>
+                                    <p>StartUp Ventures</p>
+                                </div>
+                            </div>
+                            <div class="job-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Jaipur</p>
+                                <p><i class="fas fa-briefcase"></i> 3-5 years experience</p>
+                                <p><i class="fas fa-rupee-sign"></i> ₹10-15 LPA</p>
+                                <div class="job-skills">
+                                    <span>Node.js</span>
+                                    <span>Express</span>
+                                    <span>AWS</span>
+                                    <span>Microservices</span>
+                                </div>
+                            </div>
+                            <div class="job-footer">
+                                <div class="job-posted">Posted 3 days ago</div>
+                                <button class="btn btn-primary">Apply Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="all-jobs">
+                    <h2 class="section-title">All <span class="highlight">Job Listings</span></h2>
+                    <div class="jobs-grid">
+                        <div class="job-card slide-up">
+                            <div class="job-header">
+                                <div class="company-logo">
+                                    <img src="images/company-it.png" alt="IT Solutions">
+                                </div>
+                                <div class="job-title">
+                                    <h3>MERN Stack Developer</h3>
+                                    <p>IT Solutions Inc.</p>
+                                </div>
+                            </div>
+                            <div class="job-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Indore</p>
+                                <p><i class="fas fa-briefcase"></i> 2-4 years experience</p>
+                                <p><i class="fas fa-rupee-sign"></i> ₹7-10 LPA</p>
+                                <div class="job-skills">
+                                    <span>MongoDB</span>
+                                    <span>Express</span>
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                </div>
+                            </div>
+                            <div class="job-footer">
+                                <div class="job-posted">Posted 5 days ago</div>
+                                <button class="btn btn-primary">Apply Now</button>
+                            </div>
+                        </div>
+                        
+                        <div class="job-card slide-up" style="animation-delay: 0.1s;">
+                            <div class="job-header">
+                                <div class="company-logo">
+                                    <img src="images/company-ecom.png" alt="Ecom Giant">
+                                </div>
+                                <div class="job-title">
+                                    <h3>UI/UX Designer</h3>
+                                    <p>Ecom Giant</p>
+                                </div>
+                            </div>
+                            <div class="job-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Remote</p>
+                                <p><i class="fas fa-briefcase"></i> 3-6 years experience</p>
+                                <p><i class="fas fa-rupee-sign"></i> ₹9-12 LPA</p>
+                                <div class="job-skills">
+                                    <span>Figma</span>
+                                    <span>Adobe XD</span>
+                                    <span>Prototyping</span>
+                                </div>
+                            </div>
+                            <div class="job-footer">
+                                <div class="job-posted">Posted 1 week ago</div>
+                                <button class="btn btn-primary">Apply Now</button>
+                            </div>
+                        </div>
+                        
+                        <div class="job-card slide-up" style="animation-delay: 0.2s;">
+                            <div class="job-header">
+                                <div class="company-logo">
+                                    <img src="images/company-fintech.png" alt="FinTech Pro">
+                                </div>
+                                <div class="job-title">
+                                    <h3>Python Developer</h3>
+                                    <p>FinTech Pro</p>
+                                </div>
+                            </div>
+                            <div class="job-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Lucknow</p>
+                                <p><i class="fas fa-briefcase"></i> 1-3 years experience</p>
+                                <p><i class="fas fa-rupee-sign"></i> ₹6-8 LPA</p>
+                                <div class="job-skills">
+                                    <span>Python</span>
+                                    <span>Django</span>
+                                    <span>REST APIs</span>
+                                </div>
+                            </div>
+                            <div class="job-footer">
+                                <div class="job-posted">Posted 2 days ago</div>
+                                <button class="btn btn-primary">Apply Now</button>
+                            </div>
+                        </div>
+                        
+                        <div class="job-card slide-up" style="animation-delay: 0.3s;">
+                            <div class="job-header">
+                                <div class="company-logo">
+                                    <img src="images/company-edu.png" alt="EduTech">
+                                </div>
+                                <div class="job-title">
+                                    <h3>Content Developer</h3>
+                                    <p>EduTech Solutions</p>
+                                </div>
+                            </div>
+                            <div class="job-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Remote</p>
+                                <p><i class="fas fa-briefcase"></i> 2-5 years experience</p>
+                                <p><i class="fas fa-rupee-sign"></i> ₹5-7 LPA</p>
+                                <div class="job-skills">
+                                    <span>Technical Writing</span>
+                                    <span>Instructional Design</span>
+                                    <span>E-learning</span>
+                                </div>
+                            </div>
+                            <div class="job-footer">
+                                <div class="job-posted">Posted 3 days ago</div>
+                                <button class="btn btn-primary">Apply Now</button>
+                            </div>
+                        </div>
+                        
+                        <div class="job-card slide-up" style="animation-delay: 0.4s;">
+                            <div class="job-header">
+                                <div class="company-logo">
+                                    <img src="images/company-consulting.png" alt="Consulting Firm">
+                                </div>
+                                <div class="job-title">
+                                    <h3>Business Analyst</h3>
+                                    <p>Consulting Firm</p>
+                                </div>
+                            </div>
+                            <div class="job-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Bhopal</p>
+                                <p><i class="fas fa-briefcase"></i> 3-5 years experience</p>
+                                <p><i class="fas fa-rupee-sign"></i> ₹8-11 LPA</p>
+                                <div class="job-skills">
+                                    <span>Data Analysis</span>
+                                    <span>SQL</span>
+                                    <span>Requirements Gathering</span>
+                                </div>
+                            </div>
+                            <div class="job-footer">
+                                <div class="job-posted">Posted 1 week ago</div>
+                                <button class="btn btn-primary">Apply Now</button>
+                            </div>
+                        </div>
+                        
+                        <div class="job-card slide-up" style="animation-delay: 0.5s;">
+                            <div class="job-header">
+                                <div class="company-logo">
+                                    <img src="images/company-health.png" alt="HealthTech">
+                                </div>
+                                <div class="job-title">
+                                    <h3>DevOps Engineer</h3>
+                                    <p>HealthTech</p>
+                                </div>
+                            </div>
+                            <div class="job-details">
+                                <p><i class="fas fa-map-marker-alt"></i> Remote</p>
+                                <p><i class="fas fa-briefcase"></i> 4-6 years experience</p>
+                                <p><i class="fas fa-rupee-sign"></i> ₹12-16 LPA</p>
+                                <div class="job-skills">
+                                    <span>AWS</span>
+                                    <span>Docker</span>
+                                    <span>Kubernetes</span>
+                                    <span>CI/CD</span>
+                                </div>
+                            </div>
+                            <div class="job-footer">
+                                <div class="job-posted">Posted 4 days ago</div>
+                                <button class="btn btn-primary">Apply Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pagination">
+                        <button class="btn btn-small"><i class="fas fa-chevron-left"></i></button>
+                        <button class="btn btn-small active">1</button>
+                        <button class="btn btn-small">2</button>
+                        <button class="btn btn-small">3</button>
+                        <button class="btn btn-small">4</button>
+                        <button class="btn btn-small"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                
+                <div class="job-insights">
+                    <h2 class="section-title">AI Career <span class="highlight">Insights</span></h2>
+                    <div class="insights-container">
+                        <div class="insight-card">
+                            <div class="insight-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="insight-content">
+                                <h3>Market Demand</h3>
+                                <p>Your skills in JavaScript and React are in high demand with 15% more openings this quarter.</p>
+                            </div>
+                        </div>
+                        <div class="insight-card">
+                            <div class="insight-icon">
+                                <i class="fas fa-money-bill-wave"></i>
+                            </div>
+                            <div class="insight-content">
+                                <h3>Salary Trends</h3>
+                                <p>Full Stack Developers in your region earn 10-15% more than last year.</p>
+                            </div>
+                        </div>
+                        <div class="insight-card">
+                            <div class="insight-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="insight-content">
+                                <h3>Skill Gap</h3>
+                                <p>Learning Node.js could increase your job matches by 35%.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-about">
+                        <div class="logo">
+                            <span class="logo-icon">🧠</span>
+                            <span class="logo-text">JobSensei</span>
+                        </div>
+                        <p>Empowering professionals in Tier-2 and Tier-3 cities with AI-driven career guidance.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="profile.html">Profile</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="jobs.html">Jobs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h3>Contact Us</h3>
+                        <p><i class="fas fa-envelope"></i> contact@jobsensei.ai</p>
+                        <p><i class="fas fa-phone"></i> +91 9876543210</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2023 JobSensei. All rights reserved.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="js/script.js"></script>
+    </body>
+    </html>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <span class="logo-icon"><i class="fas fa-robot"></i></span>
+                    <span class="logo-text">JobSensei</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="course.html" class="active">Courses</a></li>
+                    <li><a href="job.html">Jobs</a></li>
+                    <li><a href="#" class="btn-login">Logout</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="jobs-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-pop-in">Your Personalized Job Matches</h1>
+                <p class="hero-subtitle animate-pop-in">AI-powered recommendations based on your profile and location</p>
+                <div class="search-bar animate-pop-in">
+                    <input type="text" placeholder="Search jobs...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="wave"></div>
+    </section>
+
+    <section class="jobs-content">
+        <div class="container">
+            <div class="jobs-filter">
+                <div class="filter-section">
+                    <h3>Filter by:</h3>
+                    <div class="filter-options">
+                        <select id="job-type-filter">
+                            <option value="">All Types</option>
+                            <option value="full-time">Full-time</option>
+                            <option value="part-time">Part-time</option>
+                            <option value="remote">Remote</option>
+                            <option value="hybrid">Hybrid</option>
+                        </select>
+                        <select id="experience-filter">
+                            <option value="">All Experience Levels</option>
+                            <option value="fresher">Fresher</option>
+                            <option value="1-3">1-3 years</option>
+                            <option value="4-6">4-6 years</option>
+                        </select>
+                        <select id="salary-filter">
+                            <option value="">Salary Range</option>
+                            <option value="0-3">0-3 LPA</option>
+                            <option value="3-6">3-6 LPA</option>
+                            <option value="6-10">6-10 LPA</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="location-toggle">
+                    <label class="switch">
+                        <input type="checkbox" id="local-jobs-toggle" checked>
+                        <span class="slider round"></span>
+                    </label>
+                    <span>Show local jobs only</span>
+                </div>
+            </div>
+
+            <div class="job-recommendations">
+                <h2 class="section-title">Recommended Jobs</h2>
+                <div class="job-list">
+                    <div class="job-card animate-slide-up highlighted">
+                        <div class="job-header">
+                            <div class="job-title">
+                                <h3>Frontend Developer</h3>
+                                <p class="company-name">TechSolutions India</p>
+                            </div>
+                            <div class="job-match">
+                                <div class="match-score">92%</div>
+                                <span>Match</span>
+                            </div>
+                        </div>
+                        <div class="job-details">
+                            <div class="job-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan (Hybrid)</span>
+                                <span><i class="fas fa-rupee-sign"></i> 4.5 - 6 LPA</span>
+                                <span><i class="fas fa-briefcase"></i> 1-3 years experience</span>
+                            </div>
+                            <div class="job-skills">
+                                <h4>Key Skills:</h4>
+                                <div class="skill-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>React</span>
+                                </div>
+                            </div>
+                            <p class="job-description">
+                                We're looking for a frontend developer to join our growing team. You'll be responsible for building user interfaces and implementing design systems.
+                            </p>
+                        </div>
+                        <div class="job-actions">
+                            <button class="btn-apply">Apply Now</button>
+                            <button class="btn-save"><i class="far fa-bookmark"></i> Save</button>
+                            <button class="btn-view">View Details</button>
+                        </div>
+                    </div>
+
+                    <!-- More job cards would go here -->
+                </div>
+            </div>
+
+            <div class="job-insights">
+                <h2 class="section-title">AI Career Insights</h2>
+                <div class="insights-grid">
+                    <div class="insight-card animate-slide-up">
+                        <div class="insight-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="insight-content">
+                            <h3>Market Demand</h3>
+                            <p>Frontend developers in your area have seen a 25% increase in demand over the last 6 months.</p>
+                        </div>
+                    </div>
+                    <div class="insight-card animate-slide-up">
+                        <div class="insight-icon">
+                            <i class="fas fa-rupee-sign"></i>
+                        </div>
+                        <div class="insight-content">
+                            <h3>Salary Trends</h3>
+                            <p>The average salary for your skillset in Jaipur is ₹5.2 LPA, with remote roles offering 20-30% more.</p>
+                        </div>
+                    </div>
+                    <div class="insight-card animate-slide-up">
+                        <div class="insight-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="insight-content">
+                            <h3>Skill Gap</h3>
+                            <p>Adding React to your skills could increase your job matches by 40% and potential salary by 15%.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <div class="modal" id="job-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Job Application</h2>
+            <div class="application-form">
+                <!-- Form would go here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

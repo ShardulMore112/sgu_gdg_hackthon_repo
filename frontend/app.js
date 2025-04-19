@@ -11,7 +11,196 @@ document.addEventListener('DOMContentLoaded', function() {
     // Close mobile menu when clicking a link
     document.querySelectorAll('.nav-links a').forEach(link => {
         link.addEventListener('click', () => {
-            hamburger.classList.remove('active');
+            hamburger.clasdocument.addEventListener('DOMContentLoaded', function() {
+                // Loader
+                setTimeout(function() {
+                    document.querySelector('.loader').classList.add('fade-out');
+                }, 1000);
+                
+                // Mobile Menu Toggle
+                const hamburger = document.querySelector('.hamburger');
+                const navLinks = document.querySelector('.nav-links');
+                
+                if (hamburger && navLinks) {
+                    hamburger.addEventListener('click', function() {
+                        this.classList.toggle('active');
+                        navLinks.classList.toggle('active');
+                    });
+                }
+                
+                // Header Scroll Effect
+                const header = document.querySelector('.header');
+                
+                window.addEventListener('scroll', function() {
+                    if (window.scrollY > 50) {
+                        header.classList.add('scrolled');
+                    } else {
+                        header.classList.remove('scrolled');
+                    }
+                });
+                
+                // Profile Tabs
+                const profileMenuItems = document.querySelectorAll('.profile-menu li');
+                const profileTabs = document.querySelectorAll('.profile-tab');
+                
+                if (profileMenuItems.length && profileTabs.length) {
+                    profileMenuItems.forEach(item => {
+                        item.addEventListener('click', function() {
+                            // Remove active class from all items and tabs
+                            profileMenuItems.forEach(i => i.classList.remove('active'));
+                            profileTabs.forEach(tab => tab.classList.remove('active'));
+                            
+                            // Add active class to clicked item
+                            this.classList.add('active');
+                            
+                            // Show corresponding tab
+                            const tabId = this.querySelector('a').getAttribute('href');
+                            document.querySelector(tabId).classList.add('active');
+                        });
+                    });
+                }
+                
+                // Salary Range Slider
+                const salarySlider = document.getElementById('salary');
+                const salaryValue = document.querySelector('.salary-value');
+                
+                if (salarySlider && salaryValue) {
+                    salarySlider.addEventListener('input', function() {
+                        const value = parseInt(this.value).toLocaleString('en-IN');
+                        salaryValue.textContent = `₹${value}`;
+                    });
+                }
+                
+                // Course and Job Card Animations
+                const animateOnScroll = function() {
+                    const elements = document.querySelectorAll('.slide-up, .slide-left, .slide-right, .pop-in');
+                    
+                    elements.forEach(element => {
+                        const elementPosition = element.getBoundingClientRect().top;
+                        const windowHeight = window.innerHeight;
+                        
+                        if (elementPosition < windowHeight - 100) {
+                            element.style.opacity = '1';
+                            element.style.transform = 'translate(0, 0)';
+                        }
+                    });
+                };
+                
+                // Set initial state for animated elements
+                document.querySelectorAll('.slide-up').forEach(el => {
+                    el.style.opacity = '0';
+                    el.style.transform = 'translateY(50px)';
+                });
+                
+                document.querySelectorAll('.slide-left').forEach(el => {
+                    el.style.opacity = '0';
+                    el.style.transform = 'translateX(-50px)';
+                });
+                
+                document.querySelectorAll('.slide-right').forEach(el => {
+                    el.style.opacity = '0';
+                    el.style.transform = 'translateX(50px)';
+                });
+                
+                document.querySelectorAll('.pop-in').forEach(el => {
+                    el.style.opacity = '0';
+                    el.style.transform = 'scale(0.5)';
+                });
+                
+                // Run animation check on scroll and load
+                window.addEventListener('scroll', animateOnScroll);
+                window.addEventListener('load', animateOnScroll);
+                
+                // Skill Tag Removal
+                document.querySelectorAll('.skill-tag i').forEach(icon => {
+                    icon.addEventListener('click', function() {
+                        this.parentElement.remove();
+                    });
+                });
+                
+                // Add New Skill
+                const skillInput = document.querySelector('.skill-input input');
+                const addSkillBtn = document.querySelector('.skill-input .btn');
+                
+                if (skillInput && addSkillBtn) {
+                    addSkillBtn.addEventListener('click', function() {
+                        const skillName = skillInput.value.trim();
+                        if (skillName) {
+                            const skillTag = document.createElement('span');
+                            skillTag.className = 'skill-tag';
+                            skillTag.innerHTML = `${skillName} <i class="fas fa-times"></i>`;
+                            
+                            document.querySelector('.skill-tags').appendChild(skillTag);
+                            skillInput.value = '';
+                            
+                            // Add event listener to new tag's remove icon
+                            skillTag.querySelector('i').addEventListener('click', function() {
+                                this.parentElement.remove();
+                            });
+                        }
+                    });
+                }
+                
+                // Pagination
+                const paginationButtons = document.querySelectorAll('.pagination .btn-small');
+                
+                paginationButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        paginationButtons.forEach(btn => btn.classList.remove('active'));
+                        this.classList.add('active');
+                    });
+                });
+                
+                // Level/Type/Exp Buttons
+                const levelButtons = document.querySelectorAll('.level-buttons .btn-small');
+                const typeButtons = document.querySelectorAll('.type-buttons .btn-small');
+                const expButtons = document.querySelectorAll('.exp-buttons .btn-small');
+                
+                levelButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        levelButtons.forEach(btn => btn.classList.remove('active'));
+                        this.classList.add('active');
+                    });
+                });
+                
+                typeButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        typeButtons.forEach(btn => btn.classList.remove('active'));
+                        this.classList.add('active');
+                    });
+                });
+                
+                expButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        expButtons.forEach(btn => btn.classList.remove('active'));
+                        this.classList.add('active');
+                    });
+                });
+                
+                // Login/Signup Buttons
+                const loginBtn = document.querySelector('.btn-login');
+                const signupBtn = document.querySelector('.btn-signup');
+                
+                if (loginBtn) {
+                    loginBtn.addEventListener('click', function() {
+                        alert('Login functionality will be implemented in the backend');
+                    });
+                }
+                
+                if (signupBtn) {
+                    signupBtn.addEventListener('click', function() {
+                        alert('Signup functionality will be implemented in the backend');
+                    });
+                }
+                
+                // Course/Job Apply Buttons
+                document.querySelectorAll('.course-card .btn-small, .job-card .btn-primary').forEach(button => {
+                    button.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        alert('This action will be handled by the backend system');
+                    });
+                });
+            });sList.remove('active');
             navLinks.classList.remove('active');
         });
     });
