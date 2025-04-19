@@ -1,0 +1,316 @@
+{
+  "search_skill": "Data Science",
+  "jobs": [
+    {
+      "title": "Data Science (AI & Python Program Developers)",
+      "location": "Remote",
+      "company": "MNJ Software",
+      "description": "MNJ Software seeks a remote Data Science (AI & Python Program Developer) to build and deploy AI-powered solutions.  This role requires strong data science expertise, along with proficiency in Python development for machine learning and data analysis.",
+      "experience_required": 2,
+      "skills_required": [
+        "Python",
+        "AI/ML Algorithms",
+        "Data Structures",
+        "Pandas/NumPy",
+        "Scikit-learn/TensorFlow/PyTorch",
+        "Data Visualization (e.g., Matplotlib, Seaborn)",
+        "Software Development Principles (Git, testing)"
+      ],
+      "job_type": "full-time",
+      "link": "https://www.indeed.com/job/31324ad3783328f5?locality=in"
+    },
+    {
+      "title": "Data Science Trainer",
+      "location": "Remote",
+      "company": "ONLEI Technologies",
+      "description": "ONLEI Technologies is seeking a remote Data Science Trainer to empower aspiring data scientists.  The ideal candidate will possess strong Data Science expertise and a passion for sharing their knowledge through engaging and effective online instruction. Deliver impactful training programs and contribute to curriculum development.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/238192286f62a4f1?locality=in"
+    },
+    {
+      "title": "Data Analytics Intern (Fresher)",
+      "location": "Remote",
+      "company": "Suventure Services",
+      "description": "A Data Analytics Intern (Fresher) position at Suventure Services in Remote requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/a40d630dada6a184?locality=in"
+    },
+    {
+      "title": "Data Science - Intern",
+      "location": "Remote",
+      "company": "MNJ Software",
+      "description": "A Data Science - Intern position at MNJ Software in Remote requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/edca8c21a07a9e2c?locality=in"
+    },
+    {
+      "title": "Junior Data Science Team Member",
+      "location": "India",
+      "company": "Imurgence",
+      "description": "A Junior Data Science Team Member position at Imurgence in India requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/cc0ce17625e07a29?locality=in"
+    },
+    {
+      "title": "All India Test (AIT) 2024 Research & Development (R&D) Vertical",
+      "location": "Gurugram, Haryana",
+      "company": "Maruti Suzuki India Ltd",
+      "description": "A All India Test (AIT) 2024 Research & Development (R&D) Vertical position at Maruti Suzuki India Ltd in Gurugram, Haryana requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/b6fd7c4a5d02ae4f?locality=in"
+    },
+    {
+      "title": "Data Science Intern",
+      "location": "India",
+      "company": "SatSure Analytics India",
+      "description": "A Data Science Intern position at SatSure Analytics India in India requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/6999121b8271907c?locality=in"
+    },
+    {
+      "title": "Data Science Internship",
+      "location": "Bengaluru, Karnataka",
+      "company": "Discover Dollar",
+      "description": "A Data Science Internship position at Discover Dollar in Bengaluru, Karnataka requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/435562d55103085c?locality=in"
+    },
+    {
+      "title": "Data Annotator",
+      "location": "Remote",
+      "company": "Hypersonix",
+      "description": "A Data Annotator position at Hypersonix in Remote requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/39a921e67e7674b8?locality=in"
+    },
+    {
+      "title": "Data Science",
+      "location": "Koramangala, Bengaluru, Karnataka",
+      "company": "Globussoft Technologies",
+      "description": "A Data Science position at Globussoft Technologies in Koramangala, Bengaluru, Karnataka requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/87a38e048bc40e5e?locality=in"
+    },
+    {
+      "title": "Internship - Data Science",
+      "location": "Bengaluru, Karnataka",
+      "company": "SymphonyAI",
+      "description": "A Internship - Data Science position at SymphonyAI in Bengaluru, Karnataka requiring Data Science skills.",
+      "experience_required": 0,
+      "skills_required": [
+        "Python",
+        "R",
+        "SQL",
+        "Data Visualization (e.g., Tableau, Power BI)",
+        "Machine Learning Algorithms",
+        "Statistical Analysis"
+      ],
+      "job_type": "part-time",
+      "link": "https://www.indeed.com/job/88489d86a9c329f3?locality=in"
+    },
+    {
+      "title": "Jr Data Scientist",
+      "location": "India",
+      "company": "Veracity Software",
+      "description": "A Jr Data Scientist position at Veracity Software in India requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/621d369fe4a99c96?locality=in"
+    },
+    {
+      "title": "Data Science",
+      "location": "India",
+      "company": "Brave AI Lab",
+      "description": "A Data Science position at Brave AI Lab in India requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/2155517218b82c93?locality=in"
+    },
+    {
+      "title": "SVP - Data Science",
+      "location": "Pune, Maharashtra",
+      "company": "Exela Technologies",
+      "description": "A SVP - Data Science position at Exela Technologies in Pune, Maharashtra requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/fd9dc9c13996c181?locality=in"
+    },
+    {
+      "title": "Jr. Research Officer \u2013 Toxicology",
+      "location": "India",
+      "company": "Jai Research Foundation",
+      "description": "A Jr. Research Officer \u2013 Toxicology position at Jai Research Foundation in India requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/b4533a0164299016?locality=in"
+    },
+    {
+      "title": "Junior Data Analysts",
+      "location": "Noida, Uttar Pradesh",
+      "company": "RMSI",
+      "description": "A Junior Data Analysts position at RMSI in Noida, Uttar Pradesh requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/6cac22ad69e4ac70?locality=in"
+    },
+    {
+      "title": "Engineer - Data Science/R&D",
+      "location": "Bengaluru, Karnataka",
+      "company": "Ninestars Information Technologies",
+      "description": "A Engineer - Data Science/R&D position at Ninestars Information Technologies in Bengaluru, Karnataka requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/9b271a236e485b91?locality=in"
+    },
+    {
+      "title": "Knime Data Science",
+      "location": "Pune, Maharashtra",
+      "company": "Wipro Limited",
+      "description": "A Knime Data Science position at Wipro Limited in Pune, Maharashtra requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/061662916cabc4e7?locality=in"
+    },
+    {
+      "title": "Data Analyst",
+      "location": "Remote",
+      "company": "Norstella",
+      "description": "A Data Analyst position at Norstella in Remote requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/daf67fc2d98603c0?locality=in"
+    },
+    {
+      "title": "Data Scientist",
+      "location": "Noida, Uttar Pradesh",
+      "company": "SearchUrCollege",
+      "description": "A Data Scientist position at SearchUrCollege in Noida, Uttar Pradesh requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/221d6afa3757039d?locality=in"
+    },
+    {
+      "title": "Data Consultant (Fresher)",
+      "location": "Pune, Maharashtra",
+      "company": "Snap Analytics",
+      "description": "A Data Consultant (Fresher) position at Snap Analytics in Pune, Maharashtra requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/d6da9c6ecca5cb43?locality=in"
+    },
+    {
+      "title": "Data Scientist",
+      "location": "Delhi",
+      "company": "Crypto Mize",
+      "description": "A Data Scientist position at Crypto Mize in Delhi requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/1312cf23d6d9b860?locality=in"
+    },
+    {
+      "title": "Data Science/Analytics Engineer(0 to less than 2 years relevant experience)",
+      "location": "India",
+      "company": "SISL Infotech",
+      "description": "A Data Science/Analytics Engineer(0 to less than 2 years relevant experience) position at SISL Infotech in India requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/ff1fc64f1e457382?locality=in"
+    },
+    {
+      "title": "Data Science",
+      "location": "Mumbai, Maharashtra",
+      "company": "Neosoft Technologies Pvt.Ltd",
+      "description": "A Data Science position at Neosoft Technologies Pvt.Ltd in Mumbai, Maharashtra requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/c1fe584444396f2f?locality=in"
+    },
+    {
+      "title": "AI Researcher (100% Remote - India)",
+      "location": "Bengaluru, Karnataka",
+      "company": "Tether Operations Limited",
+      "description": "A AI Researcher (100% Remote - India) position at Tether Operations Limited in Bengaluru, Karnataka requiring Data Science skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "Data Science"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/8b3278eae1283baa?locality=in"
+    }
+  ]
+}
