@@ -2,7 +2,7 @@
   {
     "title": "Deep Learning Specialization",
     "platform": "deeplearning.ai (Coursera)",
-    "description": "A comprehensive specialization covering neural networks, convolutional networks, recurrent networks, and more. Taught by Andrew Ng.",
+    "description": "Covers foundational deep learning concepts, including neural networks, CNNs, RNNs, and more. Taught by Andrew Ng.",
     "url": "https://www.coursera.org/specializations/deep-learning",
     "skill_category": "Deep Learning, Neural Networks",
     "Price": "Varies (Financial Aid Available)",
@@ -11,83 +11,83 @@
   {
     "title": "Natural Language Processing Specialization",
     "platform": "deeplearning.ai (Coursera)",
-    "description": "Covers NLP techniques like tokenization, embeddings, transformers, and sequence models. Taught by experts from deeplearning.ai.",
+    "description": "Focuses on NLP techniques like tokenization, embeddings, transformers, and sequence models.",
     "url": "https://www.coursera.org/specializations/natural-language-processing",
     "skill_category": "NLP, LLMs",
     "Price": "Varies (Financial Aid Available)",
     "Time": "Approx. 4 months"
   },
   {
-    "title": "Machine Learning",
-    "platform": "Stanford University (Coursera)",
-    "description": "A foundational course on machine learning algorithms, taught by Andrew Ng. Covers supervised and unsupervised learning techniques.",
-    "url": "https://www.coursera.org/learn/machine-learning",
-    "skill_category": "Machine Learning Fundamentals",
-    "Price": "Free (Paid Certificate Available)",
-    "Time": "Approx. 60 hours"
+    "title": "Machine Learning Engineering for Production (MLOps) Specialization",
+    "platform": "deeplearning.ai (Coursera)",
+    "description": "Covers the entire ML lifecycle, including deployment, monitoring, and maintenance of ML systems.",
+    "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops",
+    "skill_category": "MLOps, Deployment",
+    "Price": "Varies (Financial Aid Available)",
+    "Time": "Approx. 6 months"
+  },
+  {
+    "title": "Advanced Machine Learning Specialization",
+    "platform": "HSE University (Coursera)",
+    "description": "Explores advanced ML topics like Bayesian methods, reinforcement learning, and computer vision.",
+    "url": "https://www.coursera.org/specializations/aml",
+    "skill_category": "Reinforcement Learning, Computer Vision",
+    "Price": "Varies (Financial Aid Available)",
+    "Time": "Approx. 7 months"
   },
   {
     "title": "Practical Deep Learning for Coders",
     "platform": "fast.ai",
-    "description": "A practical, code-first approach to deep learning using PyTorch. Covers image classification, NLP, and more.",
+    "description": "A practical, code-first approach to deep learning using PyTorch.",
     "url": "https://course.fast.ai/",
     "skill_category": "Deep Learning, PyTorch",
     "Price": "Free",
-    "Time": "Approx. 7 weeks"
+    "Time": "Self-paced"
   },
   {
-    "title": "Hugging Face Transformer Courses",
+    "title": "Hugging Face Transformers Course",
     "platform": "Hugging Face",
-    "description": "Various courses and tutorials on using the Hugging Face Transformers library for NLP tasks.",
-    "url": "https://huggingface.co/learn",
+    "description": "Learn how to use the Hugging Face Transformers library for NLP tasks.",
+    "url": "https://huggingface.co/course/chapter1",
     "skill_category": "NLP, LLMs, Hugging Face",
     "Price": "Free",
-    "Time": "Varies"
+    "Time": "Self-paced"
   },
   {
-    "title": "Computer Vision Nanodegree",
-    "platform": "Udacity",
-    "description": "A comprehensive program covering computer vision fundamentals, object detection, image segmentation, and more.",
-    "url": "https://www.udacity.com/course/computer-vision-nanodegree--nd891",
-    "skill_category": "Computer Vision",
-    "Price": "Paid",
-    "Time": "Approx. 4 months"
+    "title": "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+    "platform": "deeplearning.ai (Coursera)",
+    "description": "A beginner-friendly introduction to TensorFlow.",
+    "url": "https://www.coursera.org/learn/introduction-tensorflow",
+    "skill_category": "TensorFlow",
+    "Price": "Varies (Financial Aid Available)",
+    "Time": "Approx. 4 weeks"
   },
   {
-    "title": "Time Series Analysis with Python",
-    "platform": "DataCamp",
-    "description": "Covers time series analysis techniques, including forecasting models like ARIMA and Prophet.",
-    "url": "https://www.datacamp.com/courses/time-series-analysis-with-python",
+    "title": "Time Series Analysis",
+    "platform": "Datacamp",
+    "description": "Focuses on analyzing and forecasting time series data using various techniques.",
+    "url": "https://www.datacamp.com/courses/time-series-analysis-in-python",
     "skill_category": "Time Series Forecasting",
-    "Price": "Paid (Subscription)",
+    "Price": "Datacamp Subscription",
     "Time": "Approx. 4 hours"
   },
   {
-    "title": "Advanced Machine Learning Specialization",
-    "platform": "National Research University Higher School of Economics (Coursera)",
-    "description": "Covers advanced ML topics like Bayesian methods, deep learning, and reinforcement learning.",
-    "url": "https://www.coursera.org/specializations/aml",
-    "skill_category": "Advanced Machine Learning",
-    "Price": "Varies (Financial Aid Available)",
-    "Time": "Approx. 7 Months"
+    "title": "Building and Deploying Large Language Models",
+    "platform": "AWS Training & Certification",
+    "description": "Covers building and deploying LLMs using AWS services.",
+    "url": "https://aws.amazon.com/training/learning-paths/machine-learning/build-and-deploy-large-language-models/",
+    "skill_category": "LLMs, Deployment, AWS",
+    "Price": "Varies",
+    "Time": "Varies"
   },
   {
-    "title": "Building Scalable Distributed Machine Learning Pipelines with TensorFlow Extended",
+    "title": "Generative AI Learning Path",
     "platform": "Google Cloud Skills Boost",
-    "description": "Learn how to build and deploy robust ML pipelines using TensorFlow Extended (TFX).",
-    "url": "https://www.cloudskillsboost.google/quests/118",
-    "skill_category": "MLOps, TensorFlow",
-    "Price": "Free",
-    "Time": "Self-Paced"
-  },
-  {
-    "title": "Introduction to Generative AI Studio",
-    "platform": "Google Cloud Skills Boost",
-    "description": "Learn the basics of Generative AI and how to use Google's Generative AI Studio.",
-    "url": "https://www.cloudskillsboost.google/quests/249",
-    "skill_category": "Generative AI",
-    "Price": "Free",
-    "Time": "Self-Paced"
+    "description": "Explores various aspects of generative AI, including LLMs and image generation.",
+    "url": "https://www.cloudskillsboost.google/paths/118",
+    "skill_category": "Generative AI, LLMs",
+    "Price": "Free Tier Available, Paid Options",
+    "Time": "Varies"
   },
   {
     "title": "Natural Language Processing In 5 Minutes | What Is NLP And How Does It Work? | Simplilearn",

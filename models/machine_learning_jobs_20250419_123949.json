@@ -1,0 +1,197 @@
+{
+  "search_skill": "machine learning",
+  "jobs": [
+    {
+      "title": "Applied Scientist",
+      "location": "India",
+      "company": "Oracle",
+      "description": "Oracle India is seeking an Applied Scientist to develop and implement cutting-edge machine learning solutions.  This role will involve researching, designing, and deploying ML models to address complex business problems and enhance Oracle's products/services.  Strong machine learning expertise is required.",
+      "experience_required": 2,
+      "skills_required": [
+        "Python",
+        "Machine Learning Algorithms (e.g., Regression, Classification, Clustering)",
+        "Deep Learning Frameworks (e.g., TensorFlow, PyTorch)",
+        "Data Structures and Algorithms",
+        "Statistical Modeling",
+        "Data Visualization (e.g., Matplotlib, Seaborn)",
+        "Cloud Computing (e.g., AWS, Azure, GCP)"
+      ],
+      "job_type": "full-time",
+      "link": "https://www.indeed.com/job/7c2baa59c9f60dc9?locality=in"
+    },
+    {
+      "title": "Data Scientist-Machine Learning",
+      "location": "Bengaluru, Karnataka",
+      "company": "Infosys Limited",
+      "description": "Infosys Limited is seeking a Data Scientist-Machine Learning in Bengaluru, Karnataka.  This role will develop and deploy machine learning models to solve complex business problems, leveraging expertise in machine learning algorithms and statistical modeling.  The ideal candidate will have a strong analytical mindset and a passion for extracting insights from data.",
+      "experience_required": 3,
+      "skills_required": [
+        "Python",
+        "Scikit-learn",
+        "TensorFlow/PyTorch",
+        "Pandas/NumPy",
+        "SQL",
+        "Data Visualization (e.g., Matplotlib, Seaborn)",
+        "Machine Learning Algorithms (e.g., Regression, Classification, Clustering)"
+      ],
+      "job_type": "full-time",
+      "link": "https://www.indeed.com/job/e68746093b9ed8a7?locality=in"
+    },
+    {
+      "title": "Data Scientist (Machine Learning)",
+      "location": "India",
+      "company": "Helius Technologies",
+      "description": "A Data Scientist (Machine Learning) position at Helius Technologies in India requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/402e9894bcf0ea6d?locality=in"
+    },
+    {
+      "title": "Applied Scientist",
+      "location": "India",
+      "company": "Oracle",
+      "description": "A Applied Scientist position at Oracle in India requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/2b097eaa6138b366?locality=in"
+    },
+    {
+      "title": "Data Annotator",
+      "location": "Remote",
+      "company": "Hypersonix",
+      "description": "A Data Annotator position at Hypersonix in Remote requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/39a921e67e7674b8?locality=in"
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "location": "Remote",
+      "company": "SGS&CO",
+      "description": "A Machine Learning Engineer position at SGS&CO in Remote requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/9ab251221a7f68c6?locality=in"
+    },
+    {
+      "title": "Machine Learning Intern",
+      "location": "Delhi",
+      "company": "Mindkosh Technologies",
+      "description": "Mindkosh Technologies (Delhi) seeks a Machine Learning Intern to apply machine learning skills to real-world problems.  You will contribute to ongoing projects, gaining practical experience in developing and deploying ML models.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/8a6bcb2f046922b5?locality=in"
+    },
+    {
+      "title": "Machine Learning Engineers (Mid-Level & Junior)",
+      "location": "Hyderabad, Telangana",
+      "company": "Kavayah Solutions",
+      "description": "A Machine Learning Engineers (Mid-Level & Junior) position at Kavayah Solutions in Hyderabad, Telangana requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/2f06e18b49cd1a46?locality=in"
+    },
+    {
+      "title": "Data Scientist",
+      "location": "India",
+      "company": "Grid Dynamics",
+      "description": "A Data Scientist position at Grid Dynamics in India requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/5bcfdc4bae25feaf?locality=in"
+    },
+    {
+      "title": "Machine Learning Intern",
+      "location": "Bengaluru, Karnataka",
+      "company": "SatSure Analytics India",
+      "description": "A Machine Learning Intern position at SatSure Analytics India in Bengaluru, Karnataka requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/d80d2697804d4205?locality=in"
+    },
+    {
+      "title": "EH-FY25-Consulting-AI & Data-Analyst-Machine Learning + Gen AI",
+      "location": "Bengaluru, Karnataka",
+      "company": "Deloitte",
+      "description": "A EH-FY25-Consulting-AI & Data-Analyst-Machine Learning + Gen AI position at Deloitte in Bengaluru, Karnataka requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/fc46bef8fed10f5d?locality=in"
+    },
+    {
+      "title": "Senior Machine Learning Engineer",
+      "location": "Remote",
+      "company": "Specbee",
+      "description": "A Senior Machine Learning Engineer position at Specbee in Remote requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/a90a010bd2adacf1?locality=in"
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "location": "India",
+      "company": "Travitons Technologies",
+      "description": "A Machine Learning Engineer position at Travitons Technologies in India requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/cc358af21f0439a6?locality=in"
+    },
+    {
+      "title": "Data Scientist (Python, Machine Learning)",
+      "location": "Pune, Maharashtra",
+      "company": "FIS Global",
+      "description": "A Data Scientist (Python, Machine Learning) position at FIS Global in Pune, Maharashtra requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/bcacb19dd53cb8f5?locality=in"
+    },
+    {
+      "title": "Machine Learning Engineer - AI",
+      "location": "Remote",
+      "company": "Egnyte",
+      "description": "A Machine Learning Engineer - AI position at Egnyte in Remote requiring machine learning skills.",
+      "experience_required": "1-3 years",
+      "skills_required": [
+        "machine learning"
+      ],
+      "job_type": "Full-time",
+      "link": "https://www.indeed.com/job/63900d1ef7c71722?locality=in"
+    }
+  ]
+}

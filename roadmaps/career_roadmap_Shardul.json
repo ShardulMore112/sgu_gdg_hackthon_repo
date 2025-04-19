@@ -1,0 +1,71 @@
+{
+  "career_goal": "AI Researcher",
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Strengthen Foundational Knowledge",
+      "description": "Deepen understanding of core AI concepts: Linear Algebra, Probability & Statistics, Calculus, Optimization techniques, and Information Theory. Focus on areas relevant to research interests like LLMs, NLP, and Generative AI.",
+      "duration": "12 months",
+      "resources": [
+        "Online courses (Coursera, edX, Udacity)",
+        "Textbooks (e.g., \"Deep Learning\" by Goodfellow et al.)",
+        "Research papers in target areas"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Advanced Specializations",
+      "description": "Focus on specialized areas within AI research like LLMs, NLP, RAG, Generative AI, and Time Series Forecasting. Explore advanced topics like Transformer models, Attention mechanisms, and Reinforcement Learning.",
+      "duration": "6-12 months",
+      "resources": [
+        "Advanced online courses and workshops",
+        "Research papers from top conferences (NeurIPS, ICML, ICLR)",
+        "Implement and experiment with state-of-the-art models"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Research Projects and Publications",
+      "description": "Engage in independent research projects or contribute to open-source projects related to your research interests.  Target publications in reputable conferences or journals.",
+      "duration": "Ongoing",
+      "resources": [
+        "Collaborate with professors or researchers",
+        "Participate in research competitions (Kaggle)",
+        "Attend conferences and workshops to network and present research"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Build a Strong Portfolio",
+      "description": "Create a portfolio showcasing research projects, publications, code contributions, and any relevant experience.  Highlight the impact and novelty of your work.",
+      "duration": "Ongoing",
+      "resources": [
+        "GitHub repository",
+        "Personal website",
+        "Conference presentations and posters"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Pursue Advanced Education (Optional)",
+      "description": "Consider pursuing a Master's or PhD degree in Computer Science or a related field to further specialize in AI research. This can provide access to advanced resources, mentorship, and research opportunities.",
+      "duration": "2-6 years (depending on the degree)",
+      "resources": [
+        "University programs with strong AI research focus",
+        "Research advisors and labs aligned with interests",
+        "Funding opportunities (scholarships, fellowships)"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Network and Seek Opportunities",
+      "description": "Network with other researchers, attend conferences, and actively seek research positions in academia, industry research labs, or government agencies.",
+      "duration": "Ongoing",
+      "resources": [
+        "LinkedIn",
+        "Professional organizations (ACM, IEEE)",
+        "University career services"
+      ]
+    }
+  ]
+}
