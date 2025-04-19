@@ -6,6 +6,7 @@
     <title>JobSensei - Smart Career Navigator</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
         <div class="container">
             <nav class="navbar">
                 <div class="logo">
-                    <span class="logo-icon">🧠</span>
+                    <span class="logo-icon"></span>
                     <span class="logo-text">JobSensei</span>
                 </div>
                 <ul class="nav-links">
@@ -23,7 +24,10 @@
                     <li><a href="profile.html">Profile</a></li>
                     <li><a href="courses.html">Courses</a></li>
                     <li><a href="jobs.html">Jobs</a></li>
-                    <button class="btn btn-login" onclick="window.location.href='login.html'">Login</button>
+                    <button class="btn btn-login glow-btn " onclick="window.location.href='login.html'">Login</button>
+
+
+
 
                 </ul>
                
@@ -48,37 +52,57 @@
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="images/hero-ai.png" alt="AI Career Guide" class="floating">
+                    <img src="/img/ai.gif" alt="AI Career Guide" class="floating">
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="wave-container">
+        <svg class="wave" viewBox="0 0 1200 200" preserveAspectRatio="none">
+          <path d="M0,50 C300,150 900,-50 1200,50 L1200,200 L0,200 Z"></path>
+        </svg>
+        <svg class="wave" viewBox="0 0 1200 200" preserveAspectRatio="none">
+          <path d="M0,60 C400,120 800,0 1200,60 L1200,200 L0,200 Z"></path>
+        </svg>
+        <svg class="wave" viewBox="0 0 1200 200" preserveAspectRatio="none">
+          <path d="M0,70 C350,140 850,20 1200,70 L1200,200 L0,200 Z"></path>
+        </svg>
+        <svg class="wave" viewBox="0 0 1200 200" preserveAspectRatio="none">
+          <path d="M0,80 C500,100 700,40 1200,80 L1200,200 L0,200 Z"></path>
+        </svg>
+      </div>
+
     <section class="features">
         <div class="container">
             <h2 class="section-title">Why Choose <span class="highlight">JobSensei</span></h2>
             <div class="features-grid">
-                <div class="feature-card slide-up">
+                <div class="feature-card slide-up ">
                     <div class="feature-icon">
                         <i class="fas fa-brain"></i>
                     </div>
                     <h3>AI-Powered Analysis</h3>
                     <p>Our advanced AI evaluates your skills and recommends the best career paths for you.</p>
                 </div>
-                <div class="feature-card slide-up" style="animation-delay: 0.2s;">
+                <div class="feature-card slide-up " style="animation-delay: 0.2s;">
                     <div class="feature-icon">
                         <i class="fas fa-map-marked-alt"></i>
                     </div>
                     <h3>Localized Guidance</h3>
                     <p>Tailored recommendations for Tier-2 and Tier-3 city job markets.</p>
                 </div>
-                <div class="feature-card slide-up" style="animation-delay: 0.4s;">
+                <div class="feature-card slide-up " style="animation-delay: 0.4s;">
                     <div class="feature-icon">
                         <i class="fas fa-graduation-cap"></i>
                     </div>
                     <h3>Skill Development</h3>
                     <p>Personalized course recommendations to bridge your skill gaps.</p>
                 </div>
+
+                
+                   
+                    
+               
             </div>
         </div>
     </section>
@@ -157,5 +181,7 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="roadmap.js"></script>
+
 </body>
 </html>

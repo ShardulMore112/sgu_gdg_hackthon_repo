@@ -39,6 +39,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+
 }
 
 section {
@@ -105,6 +106,25 @@ img {
     font-size: 0.9rem;
 }
 
+.glow-btn {
+    background: #6c63ff;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 28px;
+    margin-top: 3px;
+    border: none;
+    border-radius: 999px; /* makes it pill-shaped */
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(108, 99, 255, 0.4); /* subtle glow */
+    transition: all 0.3s ease;
+  }
+  
+  .glow-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(108, 99, 255, 0.6); /* stronger glow on hover */
+  }
+  
+
 .highlight {
     color: var(--primary-color);
 }
@@ -162,6 +182,8 @@ img {
     100% { transform: rotate(360deg); }
 }
 
+
+
 /* Header */
 .header {
     position: fixed;
@@ -184,7 +206,11 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    display: flex;
+    gap: 20px;
+ 
 }
+
 
 .logo {
     display: flex;
@@ -292,9 +318,11 @@ img {
 
 .hero-subtitle {
     font-size: 1.2rem;
-    color: var(--gray-color);
+    /* color: var(--gray-color); */
     margin-bottom: 30px;
     max-width: 500px;
+    color: #FFF;
+    opacity: 0.6;
 }
 
 .hero-buttons {
@@ -364,6 +392,10 @@ img {
     margin-bottom: 15px;
     font-size: 1.5rem;
 }
+/* .feature-card:hover{
+    transform: rotateY(180deg);
+
+} */
 
 /* How It Works Section */
 .how-it-works {
@@ -1672,3 +1704,44 @@ input[type="range"]::-webkit-slider-thumb {
         flex-wrap: wrap;
     }
 }
+
+
+.wave path {
+    animation: float 6s ease-in-out infinite;
+    transform-origin: center;
+    box-shadow: 2px gold solid;
+  }
+
+  .wave:nth-child(1) path {
+    fill: #5c4efc;
+    animation-duration: 6s;
+  }
+
+  .wave:nth-child(2) path {
+    fill: #7c6dff;
+    animation-duration: 7.5s;
+    animation-delay: 1s;
+  }
+
+  .wave:nth-child(3) path {
+    fill: #9d8eff;
+    animation-duration: 5s;
+    animation-delay: 2s;
+  }
+
+  .wave:nth-child(4) path {
+    fill: #bfb1ff;
+    animation-duration: 8s;
+    animation-delay: 3s;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-25px);
+    }
+  }
+
+  
