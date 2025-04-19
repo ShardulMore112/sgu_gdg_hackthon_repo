@@ -1,0 +1,71 @@
+{
+  "career_goal": "Blockchain Developer",
+  "roadmap": [
+    {
+      "step": 1,
+      "title": "Fundamentals of Blockchain Technology",
+      "description": "Gain a solid understanding of blockchain concepts, including distributed ledger technology, cryptography, consensus mechanisms (Proof-of-Work, Proof-of-Stake), smart contracts, and different blockchain platforms (Ethereum, Hyperledger Fabric, Corda).",
+      "duration": "2-3 months",
+      "resources": [
+        "Online Courses (Coursera, edX, Udacity)",
+        "Books (\"Blockchain Basics\" by Daniel Drescher, \"Mastering Bitcoin\" by Andreas M. Antonopoulos)",
+        "Blockchain communities and forums"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "Programming Skills for Blockchain",
+      "description": "Learn a programming language commonly used in blockchain development, such as Solidity (for Ethereum), JavaScript (for web3 development), or Python. Focus on data structures, algorithms, and object-oriented programming principles.",
+      "duration": "3-4 months",
+      "resources": [
+        "Online coding platforms (Codecademy, freeCodeCamp)",
+        "Language-specific documentation and tutorials",
+        "Practice projects on GitHub"
+      ]
+    },
+    {
+      "step": 3,
+      "title": "Smart Contract Development",
+      "description": "Deepen your knowledge of smart contracts and practice writing, deploying, and testing them. Explore different development environments and tools like Remix, Truffle, and Hardhat.",
+      "duration": "2-3 months",
+      "resources": [
+        "Ethereum development documentation",
+        "Smart contract tutorials and examples",
+        "Participate in hackathons and coding challenges"
+      ]
+    },
+    {
+      "step": 4,
+      "title": "Decentralized Application (DApp) Development",
+      "description": "Learn how to build decentralized applications that interact with smart contracts and blockchain networks.  Focus on front-end development using web3 libraries and frameworks.",
+      "duration": "3-4 months",
+      "resources": [
+        "Web3.js documentation and tutorials",
+        "DApp development frameworks (React, Angular, Vue)",
+        "Build and deploy your own DApp projects"
+      ]
+    },
+    {
+      "step": 5,
+      "title": "Blockchain Platforms and Tools",
+      "description": "Explore different blockchain platforms beyond Ethereum, such as Hyperledger Fabric, Corda, or Polkadot.  Familiarize yourself with relevant tools for blockchain development, testing, and deployment.",
+      "duration": "2-3 months",
+      "resources": [
+        "Platform-specific documentation and tutorials",
+        "Cloud-based blockchain services (AWS Blockchain, Azure Blockchain)",
+        "Explore open-source blockchain projects"
+      ]
+    },
+    {
+      "step": 6,
+      "title": "Build a Portfolio and Network",
+      "description": "Create a portfolio of blockchain projects to showcase your skills and experience.  Network with other blockchain developers and attend industry events to learn about the latest trends and job opportunities.",
+      "duration": "Ongoing",
+      "resources": [
+        "GitHub",
+        "LinkedIn",
+        "Blockchain conferences and meetups"
+      ]
+    }
+  ]
+}
