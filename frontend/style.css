@@ -16,6 +16,15 @@
     --transition: all 0.3s ease;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -1742,4 +1751,5 @@ input[type="range"]::-webkit-slider-thumb {
     }
   }
 
+  
   

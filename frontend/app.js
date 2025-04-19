@@ -459,3 +459,30 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(notificationStyle);
 });
+
+// Highlight animation (already present)
+setInterval(() => {
+    document.querySelectorAll('.logo-line').forEach(el => {
+      if (Math.random() > 0.7) {
+        el.classList.add('highlight');
+        setTimeout(() => el.classList.remove('highlight'), 2000);
+      }
+    });
+  }, 3000);
+  
+  // 🌗 Theme Toggle Logic with Icon
+  const themeToggle = document.getElementById('themeToggle');
+  const themeIcon = document.getElementById('themeIcon');
+  
+  themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+  
+    if (document.body.classList.contains('dark-mode')) {
+      themeIcon.textContent = '🌞'; // Light mode icon
+    } else {
+      themeIcon.textContent = '🌙'; // Dark mode icon
+    }
+  });
+
+  
+  
