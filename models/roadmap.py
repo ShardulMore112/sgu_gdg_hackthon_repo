@@ -8,7 +8,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGener
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
-
+    
 # Load API key
 load_dotenv()
 API_KEY = os.getenv("GOOGLE_API_KEY")
@@ -26,7 +26,7 @@ def load_documents(resume_path, skills_path=None):
     }
 
     for path in [resume_path, skills_path]:
-        if path:
+        if path:    
             ext = os.path.splitext(path)[-1].lower()
             loader_class = loaders.get(ext)
             if loader_class:
